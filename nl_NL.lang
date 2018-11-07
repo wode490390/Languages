@@ -1,0 +1,112 @@
+#X-Generator: crowdin.com
+# Localizations for Nukkit
+#
+# These are custom localizations that need to be converted before being sent or used in the console.
+#
+
+nukkit.language.selected=%1$2s is nu de standaard taal.
+
+nukkit.data.playerNotFound=Er is geen spelerdata gevonden voor "%1$2s", er wordt een nieuw profiel gegenereerd
+nukkit.data.playerCorrupted=Corrupte data gevonden voor "%1$2s", er wordt een nieuw profiel gegenereerd
+nukkit.data.playerOld=Oude spelerdata gevonden voor "%1$2s", het profiel wordt overgezet
+nukkit.data.saveError=We kunnen de spelerdata voor "%1$2s" niet opslaan vanwege "%2$2s"
+
+nukkit.level.notFound=Wereld "%1$2s" bestaat niet
+nukkit.level.loadError=We kunnen wereld "%1$2s" niet laden vanwege "%2$2s"
+nukkit.level.generationError=Kan niet wereld "%1$2s" laden vanwege "%2$2s"
+nukkit.level.tickError=We kunnen wereld "%1$2s" niet laden: "%2$2s"
+nukkit.level.chunkUnloadError=Fout tijdens het uitladen van een chunk: %1$2s
+nukkit.level.backgroundGeneration=Spawn terrein voor wereld "%1$2s" wordt gegenereerd in de achtergrond
+nukkit.level.defaultError=Geen standaardwereld is geladen
+nukkit.level.preparing=Wereld "%1$2s" aan het voorbereiden
+nukkit.level.unloading=Uitladen van wereld "%1$2s"
+nukkit.level.updating=Oude wereld gegevens gevonden voor "%1$2s", bezig met omzetten van het formaat
+
+nukkit.server.start=Minecraft: PE aan het starten, server versie %1$2s
+nukkit.server.networkError=[Netwerk] Interface gestopt %1$2s met als gevolg van %2$2s
+nukkit.server.networkStart=Server openen op %1$2s:%2$2s
+nukkit.server.info=Deze server draait %1$2s versie %2$2s "%3$2s" (API-versie %4$2s)
+nukkit.server.info.extended=Deze server draait %1$2s %2$2s 「%3$2s」 met API versie %4$2s voor Minecraft: PE %5$2s (Protocol versie %6$2s)
+nukkit.server.license=%1$2s wordt gedistribueerd met de LGPL-licentie
+nukkit.server.tickOverload=Kan niet bij houden! Is de server overbelast?
+nukkit.server.startFinished=Klaar (%1$2ss)! Voor hulp, typt u "help" of "?"
+nukkit.server.defaultGameMode=Standaard Speltype: %1$2s
+nukkit.server.query.start=GS4 status listener aan het opstarten
+nukkit.server.query.info=Poort van de query instelt op %1$2s
+nukkit.server.query.running=Query wordt uitgevoerd op %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Kan RCON niet op starten: het wachtwoord veld is leeg
+nukkit.server.rcon.startupError=Het starten van RCON is mislukt: %1$2s
+nukkit.server.rcon.running=RCON wordt uitgevoerd op %1$2s:%2$2s
+
+nukkit.command.alias.illegal=Kan alias %1$2s niet registreren omdat het ongeldige tekens bevat
+nukkit.command.alias.notFound=Kan alias %1$2s niet registreren omdat het een command bevat wat niet bestaat: %2$2s
+nukkit.command.exception=Niet verwerkte exceptie tijdens het uitvoeren van '%1$2s' in %2$2s: %3$2s
+
+nukkit.command.version.description=Verkrijg de versie van de server inclusief eventuele plugins die in gebruik zijn
+nukkit.command.version.usage=/version [plugin naam]
+nukkit.command.version.server=Deze server draait NukkitX versie %1$2s (MC: %2$2s) (Uitvoerbare API versie %3$2s)
+nukkit.command.version.plugin=%1$2s draait versie %1$2s
+nukkit.command.version.noSuchPlugin=Deze server draait geen enkele plugin met de opgegeven naam. Gebruik /plugins om een lijst te krijgen met ingeladen plugins.
+
+nukkit.command.plugins.description=Verkrijg een lijst met plugins die draaien op de server
+nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.usage=/plugins
+
+nukkit.command.status.description=Verkrijg de server prestaties.
+nukkit.command.status.usage=/status
+
+nukkit.command.timings.description=Neem de timings op om de prestaties te zien van de server.
+nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
+nukkit.command.timings.enable=Timings gereset en ingeschakeld
+nukkit.command.timings.disable=Timings uitgeschakeld
+nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
+nukkit.command.timings.verboseEnable=Enabled verbose timings
+nukkit.command.timings.verboseDisable=Disabled verbose timings
+nukkit.command.timings.reset=Timings reset
+nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
+nukkit.command.timings.uploadStart=Preparing timings report...
+nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
+nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
+nukkit.command.timings.timingsLocation=View timings report: %1$2s
+nukkit.command.timings.timingsResponse=Timings response: %1$2s
+nukkit.command.timings.timingsWrite=Timings written to %1$2s
+
+nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+nukkit.crash.error=Could not create crash dump: %1$2s
+nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
+nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+
+nukkit.debug.enable=LevelDB support enabled
+
+nukkit.bugreport.create=An error has been detected, creating a bug report.
+nukkit.bugreport.error=Could not create bug report: %1$2s
+nukkit.bugreport.archive=A bug report has been created: %1$2s
+
+nukkit.player.invalidMove=%1$2s moved wrongly!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, {%7})
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
+nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+
+nukkit.plugin.load=Loading %1$2s
+nukkit.plugin.restrictedName=Restricted name
+nukkit.plugin.incompatibleAPI=Incompatible API version
+nukkit.plugin.unknownDependency=Unknown dependency
+nukkit.plugin.circularDependency=Circular dependency detected
+nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
+nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
+nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
+nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
+nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
+nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
+nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
+nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
+nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+
+nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
+nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
+nukkit.resources.fail=Could not load '%1$2s': %2$2s
+nukkit.resources.success=Successfully loaded %1$2s resource packs
+nukkit.resources.zip.not-found=File '%1$2s' is not found
+nukkit.resources.zip.no-manifest='manifest.json' is not found
+nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+
