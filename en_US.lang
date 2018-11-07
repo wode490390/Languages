@@ -1,3 +1,4 @@
+#X-Generator: crowdin.com
 # Localizations for Nukkit
 #
 # These are custom localizations that need to be converted before being sent or used in the console.
@@ -108,3 +109,4 @@ nukkit.resources.success=Successfully loaded %1$2s resource packs
 nukkit.resources.zip.not-found=File '%1$2s' is not found
 nukkit.resources.zip.no-manifest='manifest.json' is not found
 nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
+
