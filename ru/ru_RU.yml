@@ -1,0 +1,63 @@
+---
+general:
+  locale: "en_US"
+  motd: "A Nukkit Powered Server"
+  max-players: 20
+  sub-motd: "https://nukkitx.com"
+  xbox-auth: true
+  auto-save: true
+  force-resource-packs: false
+  white-list: false
+  achievements: true
+  announce-player-achievements: true
+  spawn-protection: 16
+  server-closed: "Server Closed"
+  auto-save-interval: 5
+mechanics:
+  difficulty: "NORMAL"
+  hardcore: false
+  pvp: true
+  edu-features: true
+  default-gamemode: "SURVIVAL"
+  force-gamemode: false
+  max-chunk-radius: 16
+  view-distance: 10
+  spawn-animals: true
+  spawn-monsters: true
+  allow-flight: false
+network:
+  address: "0.0.0.0"
+  port: 19132
+  query-enabled: true
+  query-plugins: true
+rcon:
+  enabled: true
+  address: "127.0.0.1"
+  port: 27015
+timings:
+  enabled: false
+  verbose: false
+  ignore: [ ]
+  history-interval: 6000
+  history-length: 72000
+  bypass-max: false
+  privacy: false
+advanced:
+  debug-commands: false
+  chunk-threads: 2
+  network-threads: -1
+  log-level: "INFO"
+  chunk-timeout-after-load: 30
+  chunk-timeout-after-last-access: 120
+  spawn-radius: 16
+  chunk-gc: true
+  blocks-ticked-per-tick: 50
+levels: { }
+default-level:
+  id: "7SoLxDYflqo="
+  seed: "-6233276666887516673"
+  format: "NULL"
+  type: "FLAT"
+  generator-settings: ""
+  read-only: false
+  load-spawn-chunks: false
