@@ -67,32 +67,32 @@ nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause la
 nukkit.command.timings.uploadStart=Valmistellaan ajoitusraporttia...
 nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
 nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.timingsLocation=Katso ajoitusten raportti: %1$2s
+nukkit.command.timings.timingsResponse=Ajoitusten vastaus: %1$2s
+nukkit.command.timings.timingsWrite=Ajoitukset tallennettiin paikkaan %1$2s
 
 nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
 nukkit.crash.error=Could not create crash dump: %1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=LevelDB tuki aktivoitu
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
+nukkit.bugreport.create=Virhe on havaittu, luodaan virheraporttia.
 nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.archive=Virheraportti on luotu: %1$2s
 
 nukkit.player.invalidMove=%1$2s liikkui virheellisesti!
 nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] kirjautui sisään olennon tunnuksella %4$2s paikassa (%5$2s, %6$2s, %7$2s, {%7})
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
-nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
+nukkit.plugin.load=Ladataan %1$2s
+nukkit.plugin.restrictedName=Rajoitettu nimi
+nukkit.plugin.incompatibleAPI=Yhteensopimaton API versio
+nukkit.plugin.unknownDependency=Tuntematon riippuvuus
 nukkit.plugin.circularDependency=Tuntematon riippuvuus havaittu
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
+nukkit.plugin.genericLoadError=Ei voida ladata lisäosaa '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
 nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
 nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
