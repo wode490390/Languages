@@ -6,26 +6,26 @@
 
 nukkit.language.selected=%1$2s wurde als Standardsprache festgelegt.
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
+nukkit.data.playerNotFound=Daten für Spieler "%1$2s" wurden nicht gefunden, erstelle neues Profil
 nukkit.data.playerCorrupted=Beschädigte Daten für "%1$2s" gefunden, erstelle neues Profil
 nukkit.data.playerOld=Alte Spielerdaten für "%1$2s" gefunden, Profil wird aktualisiert
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.saveError=Spieler "%1$2s" konnte nicht gespeichert werden: %2$2s
 
 nukkit.level.notFound=Welt "%1$2s" wurde nicht gefunden
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
+nukkit.level.loadError=Welt "%1$2s" konnte nicht geladen werden: %2$2s
+nukkit.level.generationError=Welt "%1$2s" konnte nicht generiert werden: %2$2s
 nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
-nukkit.level.updating=Old level data found for "%1$2s", converting format
+nukkit.level.backgroundGeneration=Spawn-Gelände für Welt "%1$2s" wird im Hintergrund generiert
+nukkit.level.defaultError=Keine Standardwelt wurde geladen
+nukkit.level.preparing=Welt "%1$2s" wird vorbereitet
+nukkit.level.unloading=Welt "%1$2s" wird entladet
+nukkit.level.updating=Alte Speicherformat in Welt "%1$2s", Format wird konvertiert
 
 nukkit.server.start=Starte Minecraft: PE Server Version %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
+nukkit.server.networkError=[Netzwerk] Anschluss %1$2s wird geschlossen wegen %2$2s
+nukkit.server.networkStart=Server auf %1$2s:%2$2s wird geöffnet
+nukkit.server.info=Dieses Server läuft auf %1$2s Version %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 implementing API version %4$2s for Minecraft: PE %5$2s (protocol version %6$2s)
 nukkit.server.license=%1$2s is distributed under the LGPL License
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
