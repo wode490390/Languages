@@ -9,34 +9,34 @@ nukkit.language.selected=Valittiin %1$2s oletuskieleksi.
 nukkit.data.playerNotFound=Pelaajan ”%1$2s” tietoja ei löytynyt, luodaan uusi profiili
 nukkit.data.playerCorrupted=Pelaajan ”%1$2s” tiedot ovat korruptoituneet, luodaan uusi profiili
 nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
-nukkit.data.saveError=Could not save player "%1$2s": %2$2s
+nukkit.data.saveError=Ei voida tallentaa pelaajaa "%1$2s": %2$2s
 
 nukkit.level.notFound=Tasoa "%1$2s" ei löydy
-nukkit.level.loadError=Could not load level "%1$2s": %2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
+nukkit.level.loadError=Ei voida ladata tasoa '%1$2s': %2$2s
+nukkit.level.generationError=Ei voida luoda tasoa '%1$2s': %2$2s
+nukkit.level.tickError=Ei voida prosessoida tasoa '%1$2s': %2$2s
+nukkit.level.chunkUnloadError=Virhe vapauttaessa lohkoa: %1$2s
 nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 nukkit.level.defaultError=Oletustasoa ei ole ladattu
 nukkit.level.preparing=Valmistellaan tasoa "%1$2s"
 nukkit.level.unloading=Suljetaan tasoa "%1$2s"
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
-nukkit.server.start=Starting Minecraft: PE server version %1$2s
+nukkit.server.start=Käynnistetään Minecraft Bedrock Edition palvelin versio %1$2s
 nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
 nukkit.server.networkStart=Avataan palvelin osoitteessa %1$2s:%2$2s
 nukkit.server.info=Tämä pälvelin käyttää %1$2s versiota %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 implementing API version %4$2s for Minecraft: PE %5$2s (protocol version %6$2s)
-nukkit.server.license=%1$2s is distributed under the LGPL License
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
+nukkit.server.license=%1$2s jaetaan LGPL-lisenssin alaisena
+nukkit.server.tickOverload=Ei pysy pystyssä! Onko palvelin ylikuormitettu?
 nukkit.server.startFinished=Valmis (%1$2ss)! Kirjoita "help" tai "?" saadaksesi apua
 nukkit.server.defaultGameMode=Oletuspelitila: %1$2s
 nukkit.server.query.start=Käynnistetään GS4 tilan tarkkailija
 nukkit.server.query.info=Asetetaan tiedustelun portiksi %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.query.running=Tiedustelu on käynnissä osoitteessa %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=RCON käynnistäminen epäonnistui: salasana on tyhjä
+nukkit.server.rcon.startupError=RCON käynnistäminen epäonnistui: %1$2s
+nukkit.server.rcon.running=RCON on käynnissä osoitteessa %1$2s:%2$2s
 
 nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
 nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
@@ -48,11 +48,11 @@ nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: 
 nukkit.command.version.plugin=%1$2s versio %1$2s
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=Hanki lista käytössä olevista lisäosista
 nukkit.command.plugins.success=Lisäosat (%1$2s): %2$2s
 nukkit.command.plugins.usage=/lisäosat
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Tietoa palvelimen suorituskyvystä
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Records timings to see performance of the server.
@@ -79,13 +79,13 @@ nukkit.crash.archive=The crash dump has been automatically submitted to the Cras
 nukkit.debug.enable=LevelDB tuki aktivoitu
 
 nukkit.bugreport.create=Virhe on havaittu, luodaan virheraporttia.
-nukkit.bugreport.error=Could not create bug report: %1$2s
+nukkit.bugreport.error=Virheraportin luonti epäonnistui: %1$2s
 nukkit.bugreport.archive=Virheraportti on luotu: %1$2s
 
 nukkit.player.invalidMove=%1$2s liikkui virheellisesti!
 nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] kirjautui sisään olennon tunnuksella %4$2s paikassa (%5$2s, %6$2s, %7$2s, {%7})
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] kirjautui ulos: %4$2s
+nukkit.player.invalidEntity=%1$2s yritti vahingoittaa virheellistä olentoa
 
 nukkit.plugin.load=Ladataan %1$2s
 nukkit.plugin.restrictedName=Rajoitettu nimi
@@ -93,9 +93,9 @@ nukkit.plugin.incompatibleAPI=Yhteensopimaton API versio
 nukkit.plugin.unknownDependency=Tuntematon riippuvuus
 nukkit.plugin.circularDependency=Tuntematon riippuvuus havaittu
 nukkit.plugin.genericLoadError=Ei voida ladata lisäosaa '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
+nukkit.plugin.spacesDiscouraged=Lisäosan '%1$2s' nimi sisältää välilyönnin, tätä ei suositella
+nukkit.plugin.loadError=Ei voida ladata lisäosaa '%1$2s': %2$2s
+nukkit.plugin.duplicateError=Ei voida ladata lisäosaa '%1$2s': samanniminen lisäosa on jo ladattu
 nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
 nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
 nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
