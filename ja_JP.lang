@@ -6,7 +6,7 @@
 
 nukkit.language.selected=%1$2s をデフォルトのロケールに設定しました。
 
-nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
+nukkit.data.playerNotFound=「%1$2s」のプレイヤーデータが見つからないため、新しいプロフィルを作成します
 nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
 nukkit.data.playerOld=Old Player data found for "%1$2s", upgrading profile
 nukkit.data.saveError=プレイヤー「%1$2s」のデータを保存できませんでした：%2$2s
@@ -49,7 +49,7 @@ nukkit.command.version.plugin=%1$2s running version %1$2s
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
 nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
 nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=Reads back the server's performance.
