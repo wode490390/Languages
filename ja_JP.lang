@@ -60,8 +60,8 @@ nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=タイミングとリセットを有効にしました
 nukkit.command.timings.disable=タイミングを無効にしました
 nukkit.command.timings.timingsDisabled=/timings on を入力してタイミングを有効にしてください
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
+nukkit.command.timings.verboseEnable=バーボーズタイミングを有効にしました
+nukkit.command.timings.verboseDisable=バーボーズタイミングを無効にしました
 nukkit.command.timings.reset=タイミングをリセットしました
 nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 nukkit.command.timings.uploadStart=Preparing timings report...
@@ -76,7 +76,7 @@ nukkit.crash.error=クラッシュダンプを作成できませんでした：%
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=LevelDB 対応が有効になっています
 
 nukkit.bugreport.create=An error has been detected, creating a bug report.
 nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
