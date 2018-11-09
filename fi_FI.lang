@@ -38,15 +38,15 @@ nukkit.server.rcon.emptyPasswordError=RCON käynnistäminen epäonnistui: salasa
 nukkit.server.rcon.startupError=RCON käynnistäminen epäonnistui: %1$2s
 nukkit.server.rcon.running=RCON on käynnissä osoitteessa %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Aliasta %1$2s ei voida rekisteröidä koska se sisältää laittomia merkkejä
+nukkit.command.alias.notFound=Aliasta %1$2s ei voida rekisteröidä koska se sisältää komentoja joita ei ole olemassa: %2$2s
+nukkit.command.exception=Käsittelemätön virhe suorittaessa komentoa '%1$2s' paikassa %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.description=Hanki palvelimen versio sisältäen kaikki käytössä olevat lisäosat
 nukkit.command.version.usage=/version [lisäosan nimi]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.server=Tämä palvelin käyttää NukkitX versiota %1$2s (MC: %2$2s) (API versio %3$2s)
 nukkit.command.version.plugin=%1$2s versio %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.noSuchPlugin=Tämän nimistä lisäosaa ei löytynyt. Käytä /plugins komentoa saadaksesi listan lisäosista.
 
 nukkit.command.plugins.description=Hanki lista käytössä olevista lisäosista
 nukkit.command.plugins.success=Lisäosat (%1$2s): %2$2s
@@ -55,7 +55,7 @@ nukkit.command.plugins.usage=/lisäosat
 nukkit.command.status.description=Tietoa palvelimen suorituskyvystä
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Tallentaa ajoitukset saadaksesi tietoa palvelimen suorituskyvystä
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=Enabled timings and reset
 nukkit.command.timings.disable=Ajoitukset poistettiin käytöstä
