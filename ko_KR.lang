@@ -45,7 +45,7 @@ nukkit.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 �
 nukkit.command.version.description=사용 중인 플러그인을 포함해 이 서버의 버전을 확인합니다
 nukkit.command.version.usage=/version [플러그인 이름]
 nukkit.command.version.server=이 서버는 NukkitX 버전 %1$2s (MC: %2$2s) (API 버전 %3$2s 구현)을(를) 실행 중입니다
-nukkit.command.version.plugin=%1$2s running version %1$2s
+nukkit.command.version.plugin=%1$2s 버전 %1$2s을(를) 실행 중입니다
 nukkit.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 확인하세요.
 
 nukkit.command.plugins.description=서버에서 실행 중인 플러그인 목록을 확인합니다
