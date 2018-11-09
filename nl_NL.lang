@@ -83,7 +83,7 @@ nukkit.bugreport.error=Bug report kon niet gemaakt worden: %1$2s
 nukkit.bugreport.archive=Een bug report is gemaakt: %1$2s
 
 nukkit.player.invalidMove=%1$2s heeft verkeerd bewogen!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] is ingelogd met entity id %4$2s op (%5$2s, %6$2s, %7$2s, {%7})
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] is uitgelogd vanwege %4$2s
 nukkit.player.invalidEntity=%1$2s probeerde een ongeldig entity aan te vallen
 
