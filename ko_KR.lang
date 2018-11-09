@@ -40,62 +40,62 @@ nukkit.server.rcon.running=RCON이 %1$2s:%2$2s에서 실행 중입니다
 
 nukkit.command.alias.illegal=잘못된 문자를 포함하기에 %1$2s 별칭을 등록할 수 없습니다
 nukkit.command.alias.notFound=존재하지 않는 명령어를 포함하기에 %1$2s 별칭을 등록할 수 없습니다: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 않은 예외가 발생했습니다: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
+nukkit.command.version.description=사용 중인 플러그인을 포함해 이 서버의 버전을 확인합니다
+nukkit.command.version.usage=/version [플러그인 이름]
+nukkit.command.version.server=이 서버는 NukkitX 버전 %1$2s (MC: %2$2s) (API 버전 %3$2s 구현)을(를) 실행 중입니다
 nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 확인하세요.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=서버에서 실행 중인 플러그인 목록을 확인합니다
+nukkit.command.plugins.success=플러그인(%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=서버의 성능을 읽습니다.
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=서버의 성능 확인을 위해 타이밍을 기록합니다.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.enable=타이밍 및 초기화를 활성화했습니다
+nukkit.command.timings.disable=타이밍을 비활성화했습니다
+nukkit.command.timings.timingsDisabled=/timings on을 입력해 타이밍을 활성화해주세요
+nukkit.command.timings.verboseEnable=버보스 타이밍을 활성화했습니다
+nukkit.command.timings.verboseDisable=버보스 타이밍을 비활성화했습니다
+nukkit.command.timings.reset=타이밍을 초기화했습니다
+nukkit.command.timings.rcon=주의: 타이밍 보고서는 RCON으로 실행 시 서버 지연을 유발할 수 있으며, 게임 내 또는 콘솔에서 /timings report 사용을 권장합니다
+nukkit.command.timings.uploadStart=타이밍 보고서 준비 중...
+nukkit.command.timings.uploadError=업로드 오류: %1$2s: %2$2s, 자세한 정보는 로그를 확인하세요
+nukkit.command.timings.reportError=보고서를 붙여넣는 동안 오류가 발생했습니다, 자세한 정보는 로그를 확인하세요
+nukkit.command.timings.timingsLocation=타이밍 보고서 보기: %1$2s
+nukkit.command.timings.timingsResponse=타이밍 응답: %1$2s
+nukkit.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니다
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=복구 불가능한 오류가 발생해 서버가 강제 종료되었습니다. 충돌 덤프를 생성합니다
+nukkit.crash.error=충돌 덤프를 생성할 수 없습니다: %1$2s
+nukkit.crash.submit="%1$2s" 파일을 충돌 보관소에 업로드하고 버그 보고 페이지에 링크를 제출해주세요. 가능한 한 많은 정보를 주시기 바랍니다.
+nukkit.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되었습니다. %1$2s에서 확인하거나 ID #%2$2s을(를) 사용할 수 있습니다.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=LevelDB 지원이 활성화되었습니다
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=오류가 감지되었습니다, 버그 보고서를 생성합니다.
+nukkit.bugreport.error=버그 보고서를 생성할 수 없습니다: %1$2s
+nukkit.bugreport.archive=버그 보고서가 생성되었습니다: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, {%7})
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.invalidMove=%1$2s이(가) 잘못된 움직임을 보였습니다!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s]이(가) 개체 ID %4$2s(으)로 (%5$2s, %6$2s, %7$2s, {%7})에 로그인했습니다
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s]이(가) %4$2s(으)로 인해 로그아웃되었습니다
+nukkit.player.invalidEntity=%1$2s이(가) 잘못된 개체를 공격하려고 시도했습니다
 
-nukkit.plugin.load=Loading %1$2s
-nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
-nukkit.plugin.circularDependency=Circular dependency detected
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
+nukkit.plugin.load=%1$2s을(를) 불러오는 중입니다
+nukkit.plugin.restrictedName=제한된 이름입니다
+nukkit.plugin.incompatibleAPI=호환되지 않는 API 버전입니다
+nukkit.plugin.unknownDependency=알 수 없는 의존입니다
+nukkit.plugin.circularDependency=순환적 의존이 감지되었습니다
+nukkit.plugin.genericLoadError='%1$2s' 플러그인을 불러올 수 없습니다
+nukkit.plugin.spacesDiscouraged='%1$2s' 플러그인은 이름에 공백을 사용하며, 이는 권장되지 않습니다
+nukkit.plugin.loadError='%1$2s' 플러그인을 불러올 수 없습니다: %2$2s
+nukkit.plugin.duplicateError='%1$2s' 플러그인을 불러올 수 없습니다: 이미 존재하는 플러그인입니다
 nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
 nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
 nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
