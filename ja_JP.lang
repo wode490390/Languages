@@ -45,7 +45,7 @@ nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s:
 nukkit.command.version.description=Gets the version of this server including any plugins in use
 nukkit.command.version.usage=/version [plugin name]
 nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
+nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
 
 nukkit.command.plugins.description=Gets a list of plugins running on the server
@@ -72,7 +72,7 @@ nukkit.command.timings.timingsResponse=Timings response: %1$2s
 nukkit.command.timings.timingsWrite=Timings written to %1$2s
 
 nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
+nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
@@ -90,8 +90,8 @@ nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 nukkit.plugin.load=Loading %1$2s
 nukkit.plugin.restrictedName=Restricted name
 nukkit.plugin.incompatibleAPI=Incompatible API version
-nukkit.plugin.unknownDependency=Unknown dependency
-nukkit.plugin.circularDependency=Circular dependency detected
+nukkit.plugin.unknownDependency=不明な依存関係です
+nukkit.plugin.circularDependency=循環依存関係が検出されました
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
 nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
@@ -106,7 +106,7 @@ nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a di
 nukkit.resources.unknown-format=Could not load '%1$2s' due to format not recognized
 nukkit.resources.fail=Could not load '%1$2s': %2$2s
 nukkit.resources.success=Successfully loaded %1$2s resource packs
-nukkit.resources.zip.not-found=File '%1$2s' is not found
-nukkit.resources.zip.no-manifest='manifest.json' is not found
+nukkit.resources.zip.not-found=ファイル「%1$2s」が見つかりません
+nukkit.resources.zip.no-manifest=「manifest.json」が見つかりません
 nukkit.resources.zip.invalid-manifest='manifest.json' is invalid or incomplete
 
