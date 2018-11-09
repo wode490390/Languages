@@ -57,12 +57,12 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Records timings to see performance of the server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
+nukkit.command.timings.enable=タイミングとリセットを有効にしました
+nukkit.command.timings.disable=タイミングを無効にしました
+nukkit.command.timings.timingsDisabled=/timings on を入力してタイミングを有効にしてください
 nukkit.command.timings.verboseEnable=Enabled verbose timings
 nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
+nukkit.command.timings.reset=タイミングをリセットしました
 nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 nukkit.command.timings.uploadStart=Preparing timings report...
 nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
