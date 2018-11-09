@@ -13,10 +13,10 @@ nukkit.data.saveError=プレイヤー「%1$2s」のデータを保存できま�
 
 nukkit.level.notFound=レベル「%1$2s」が見つかりませんでした
 nukkit.level.loadError=レベル「%1$2s」を読み込むことができませんでした：%2$2s
-nukkit.level.generationError=Could not generate level "%1$2s": %2$2s
+nukkit.level.generationError=レベル「%1$2s」を生成できませんでした：%2$2s
 nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
+nukkit.level.backgroundGeneration=レベル「%1$2s」のスポーン地形がバックグラウンドで生成されています
 nukkit.level.defaultError=No default level has been loaded
 nukkit.level.preparing=Preparing level "%1$2s"
 nukkit.level.unloading=Unloading level "%1$2s"
