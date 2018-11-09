@@ -4,7 +4,7 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=%1$2s をデフォルトのロケールに設定しました。
 
 nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
 nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
@@ -30,7 +30,7 @@ nukkit.server.info.extended=This server is running %1$2s %2$2s 「%3$2s」 imple
 nukkit.server.license=%1$2s is distributed under the LGPL License
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
 nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
+nukkit.server.defaultGameMode=デフォルトのゲームタイプ: %1$2s
 nukkit.server.query.start=Starting GS4 status listener
 nukkit.server.query.info=Setting query port to %1$2s
 nukkit.server.query.running=Query is running on %1$2s:%2$2s
