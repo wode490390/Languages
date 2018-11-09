@@ -79,12 +79,12 @@ nukkit.crash.archive=The crash dump has been automatically submitted to the Cras
 nukkit.debug.enable=LevelDB support enabled
 
 nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
+nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
 
 nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] がエンティティ ID %4$2s として（%5$2s、%6$2s、%7$2s、%8$2s）にログインしました
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] が %4$2s によってログアウトされました
 nukkit.player.invalidEntity=%1$2s が無効なエンティティを攻撃しようとしました
 
 nukkit.plugin.load=%1$2s を読み込み中です
