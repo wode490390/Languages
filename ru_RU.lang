@@ -83,7 +83,7 @@ nukkit.bugreport.error=Не удалось создать аварийный д�
 nukkit.bugreport.archive=Был создан отчет об ошибке: %1$2s
 
 nukkit.player.invalidMove=%1$2s двинулся подозрительно!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] вошел сущности id %4$2s (%5$2s, %6$2s, %7$2s, {%7})
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] вышел из-за %4$2s
 nukkit.player.invalidEntity=%1$2s пытались атаковать недопустимые сущность
 
