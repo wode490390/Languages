@@ -83,7 +83,7 @@ nukkit.bugreport.error=Virheraportin luonti epäonnistui: %1$2s
 nukkit.bugreport.archive=Virheraportti on luotu: %1$2s
 
 nukkit.player.invalidMove=%1$2s liikkui virheellisesti!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] kirjautui sisään olennon tunnuksella %4$2s paikassa (%5$2s, %6$2s, %7$2s, {%7})
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] kirjautui ulos: %4$2s
 nukkit.player.invalidEntity=%1$2s yritti vahingoittaa virheellistä olentoa
 
