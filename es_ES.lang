@@ -83,7 +83,7 @@ nukkit.bugreport.error=No se ha podido crear el reporte del bug: %1$2s
 nukkit.bugreport.archive=Un reporte de un bug ha sido creado: %1$2s
 
 nukkit.player.invalidMove=%1$2s se a movido erróneamente!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] conectado con la id de entidad %4$2s en (%5$2s, %6$2s, %7$2s, {%7})
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
