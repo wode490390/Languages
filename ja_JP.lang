@@ -43,7 +43,7 @@ nukkit.command.alias.notFound=Could not register alias %1$2s because it contains
 nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
 nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
+nukkit.command.version.usage=/version [プラグイン名]
 nukkit.command.version.server=This server is running NukkitX version %1$2s (MC: %2$2s) (Implementing API version %3$2s)
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
 nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
@@ -87,14 +87,14 @@ nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
-nukkit.plugin.load=Loading %1$2s
+nukkit.plugin.load=%1$2s を読み込み中です
 nukkit.plugin.restrictedName=Restricted name
 nukkit.plugin.incompatibleAPI=Incompatible API version
 nukkit.plugin.unknownDependency=不明な依存関係です
 nukkit.plugin.circularDependency=循環依存関係が検出されました
-nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
+nukkit.plugin.genericLoadError=プラグイン「%1$2s」を読み込むことができませんでした
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
-nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
+nukkit.plugin.loadError=プラグイン「%1$2s」を読み込むことができませんでした：%2$2s
 nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
 nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
 nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
