@@ -102,7 +102,7 @@ nukkit.plugin.aliasError=プラグイン %2$2s の エイリアス %1$2s を読�
 nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
 nukkit.plugin.eventError=イベント「%1$2s」を「%2$2s」に渡すことができませんでした：%4$2s での %3$2s
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
+nukkit.resources.invalid-path=リソースパックのパス「%1$2s」が存在し、ディレクトリではありません
 nukkit.resources.unknown-format=形式が認識されないため「%1$2s」を読み込むことができませんでした
 nukkit.resources.fail=「%1$2s」を読み込むことができませんでした：%2$2s
 nukkit.resources.success=%1$2s 個のリソースパックを読み込みしました
