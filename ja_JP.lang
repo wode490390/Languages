@@ -38,8 +38,8 @@ nukkit.server.rcon.emptyPasswordError=RCON の開始に失敗しました：パ�
 nukkit.server.rcon.startupError=RCON の開始に失敗しました：%1$2s
 nukkit.server.rcon.running=RCON は %1$2s:%2$2s で動作しています
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
+nukkit.command.alias.illegal=無効な文字が含まれているため、エイリアス %1$2s を登録できませんでした
+nukkit.command.alias.notFound=存在しないコマンドが含まれているため、エイリアス %1$2s を登録できませんでした：%2$2s
 nukkit.command.exception=%2$2s でコマンド「%1$2s」の実行中に未処理の例外が発生しました：%3$2s
 
 nukkit.command.version.description=Gets the version of this server including any plugins in use
