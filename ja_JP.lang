@@ -73,8 +73,8 @@ nukkit.command.timings.timingsWrite=Timings written to %1$2s
 
 nukkit.crash.create=回復不可能なエラーが発生し、サーバーがクラッシュしました。クラッシュダンプを作成します
 nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
-nukkit.crash.submit=「%1$2s」のファイルをクラッシュアーカイブにアップロードし、バグレポート ページにリンクを送ってください。できる限り多くの情報を提供してください。
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.submit=「%1$2s」のファイルをクラッシュアーカイブにアップロードし、バグレポート ページにリンクを提出してください。できる限り多くの情報を提供してください。
+nukkit.crash.archive=クラッシュダンプが自動的にクラッシュアーカイブに提出されました。%1$2s で確認したり ID #%2$2s を使用できます。
 
 nukkit.debug.enable=LevelDB 対応が有効になっています
 
