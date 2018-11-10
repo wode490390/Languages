@@ -42,20 +42,20 @@ nukkit.command.alias.illegal=無効な文字が含まれているため、エイ
 nukkit.command.alias.notFound=存在しないコマンドが含まれているため、エイリアス %1$2s を登録できませんでした：%2$2s
 nukkit.command.exception=%2$2s でコマンド「%1$2s」の実行中に未処理の例外が発生しました：%3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.description=使用しているプラグインを含めたこのサーバーのバージョンを取得します
 nukkit.command.version.usage=/version [プラグイン名]
 nukkit.command.version.server=このサーバーは NukkitX バージョン %1$2s（MC：%2$2s）（API バージョン %3$2s を実装）を実行しています
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
 nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインリストを取得してください。
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=サーバー上に実行されているプラグインリストを取得します
 nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=サーバーのパフォーマンスを読み出します。
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=サーバーのパフォーマンスを確認するためタイミングを記録します。
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=タイミングとリセットを有効にしました
 nukkit.command.timings.disable=タイミングを無効にしました
@@ -66,10 +66,10 @@ nukkit.command.timings.reset=タイミングをリセットしました
 nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
 nukkit.command.timings.uploadStart=タイミングレポートを準備中…
 nukkit.command.timings.uploadError=アップロード エラー：%1$2s：%2$2s、詳細はログを確認してください
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
+nukkit.command.timings.reportError=レポートのペースト中にエラーが発生しました、詳細はログを確認してください
 nukkit.command.timings.timingsLocation=タイミングのレポートを見る：%1$2s
 nukkit.command.timings.timingsResponse=タイミングの応答：%1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.timingsWrite=タイミングが %1$2s に書き込まれました
 
 nukkit.crash.create=回復不可能なエラーが発生し、サーバーがクラッシュしました。クラッシュダンプを作成します
 nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
@@ -93,7 +93,7 @@ nukkit.plugin.incompatibleAPI=互換性のない API バージョンです
 nukkit.plugin.unknownDependency=不明な依存関係です
 nukkit.plugin.circularDependency=循環依存関係が検出されました
 nukkit.plugin.genericLoadError=プラグイン「%1$2s」を読み込むことができませんでした
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
+nukkit.plugin.spacesDiscouraged=プラグイン「%1$2s」は名前にスペースを使用し、これは推奨されません
 nukkit.plugin.loadError=プラグイン「%1$2s」を読み込むことができませんでした：%2$2s
 nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことができませんでした：同じプラグインが存在します
 nukkit.plugin.fileError=フォルダー「%2$2s」で「%1$2s」を読み込むことができませんでした：%3$2s
