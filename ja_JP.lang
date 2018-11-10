@@ -71,14 +71,14 @@ nukkit.command.timings.timingsLocation=タイミングのレポートを見る�
 nukkit.command.timings.timingsResponse=タイミングの応答：%1$2s
 nukkit.command.timings.timingsWrite=Timings written to %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
+nukkit.crash.create=回復不可能なエラーが発生し、サーバーがクラッシュしました。クラッシュダンプを作成します
 nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
 nukkit.debug.enable=LevelDB 対応が有効になっています
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
+nukkit.bugreport.create=エラーが検出されたため、バグレポートを作成します
 nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
 nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
 
