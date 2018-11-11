@@ -78,7 +78,7 @@ nukkit.crash.archive=クラッシュダンプが自動的にクラッシュア�
 
 nukkit.debug.enable=LevelDB 対応が有効になっています
 
-nukkit.bugreport.create=エラーが検出されたため、バグレポートを作成します
+nukkit.bugreport.create=エラーが検出されたため、バグレポートを作成します。
 nukkit.bugreport.error=バグレポートを作成できませんでした：%1$2s
 nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
 
@@ -97,8 +97,8 @@ nukkit.plugin.spacesDiscouraged=プラグイン「%1$2s」は名前にスペー�
 nukkit.plugin.loadError=プラグイン「%1$2s」を読み込むことができませんでした：%2$2s
 nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことができませんでした：同じプラグインが存在します
 nukkit.plugin.fileError=フォルダー「%2$2s」で「%1$2s」を読み込むことができませんでした：%3$2s
-nukkit.plugin.commandError=プラグイン %2$2s の コマンド %1$2s を読み込むことができませんでした
-nukkit.plugin.aliasError=プラグイン %2$2s の エイリアス %1$2s を読み込むことができませんでした
+nukkit.plugin.commandError=プラグイン %2$2s のコマンド %1$2s を読み込むことができませんでした
+nukkit.plugin.aliasError=プラグイン %2$2s のエイリアス %1$2s を読み込むことができませんでした
 nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」に登録しましたが、このイベントは廃止されました。
 nukkit.plugin.eventError=イベント「%1$2s」を「%2$2s」に渡すことができませんでした：%4$2s での %3$2s
 
