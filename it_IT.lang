@@ -53,7 +53,7 @@ nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=Reads back the server's performance.
-nukkit.command.status.usage=/status
+nukkit.command.status.usage=/stato
 
 nukkit.command.timings.description=Records timings to see performance of the server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
