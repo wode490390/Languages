@@ -28,7 +28,7 @@ nukkit.server.networkStart=%1$2s:%2$2s でサーバーを開始しています
 nukkit.server.info=このサーバーは %1$2s バージョン %2$2s「%3$2s」（API %4$2s）を実行しています
 nukkit.server.info.extended=このサーバーは Minecraft: PE %5$2s（プロトコル バージョン %6$2s）用 API バージョン %4$2s を実装する %1$2s %2$2s「%3$2s」を実行しています
 nukkit.server.license=%1$2s は LGPL ライセンスのもとで配布されています
-nukkit.server.tickOverload=付いて行けません！サーバーが過負荷ましたか？
+nukkit.server.tickOverload=付いて行けません！サーバーが過負荷されましたか？
 nukkit.server.startFinished=完了（%1$2s 秒）！ヘルプについては「help」または「?」を入力してください
 nukkit.server.defaultGameMode=デフォルトのゲームタイプ：%1$2s
 nukkit.server.query.start=GS4 ステータス リスナーを開始しています
@@ -73,7 +73,7 @@ nukkit.command.timings.timingsWrite=タイミングが %1$2s に書き込まれ�
 
 nukkit.crash.create=回復不可能なエラーが発生し、サーバーがクラッシュしました。クラッシュダンプを作成します
 nukkit.crash.error=クラッシュダンプを作成できませんでした：%1$2s
-nukkit.crash.submit=「%1$2s」のファイルをクラッシュアーカイブにアップロードし、バグレポート ページにリンクを提出してください。できる限り多くの情報を提供してください。
+nukkit.crash.submit=「%1$2s」のファイルをクラッシュアーカイブにアップロードし、バグレポートページにリンクを提出してください。できる限り多くの情報を提供してください。
 nukkit.crash.archive=クラッシュダンプが自動的にクラッシュアーカイブに提出されました。%1$2s で確認したり ID #%2$2s を使用できます。
 
 nukkit.debug.enable=LevelDB 対応が有効になっています
