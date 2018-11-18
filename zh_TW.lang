@@ -89,9 +89,9 @@ nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
 nukkit.plugin.load=Loading %1$2s
 nukkit.plugin.restrictedName=限制的名稱
-nukkit.plugin.incompatibleAPI=Incompatible API version
+nukkit.plugin.incompatibleAPI=相容應用程式介面版本
 nukkit.plugin.unknownDependency=未知的依賴關係
-nukkit.plugin.circularDependency=Circular dependency detected
+nukkit.plugin.circularDependency=檢測到迴圈依賴關係
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
 nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
