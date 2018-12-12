@@ -110,3 +110,4 @@ nukkit.resources.zip.not-found=ファイル「%1$2s」が見つかりません
 nukkit.resources.zip.no-manifest=「manifest.json」が見つかりません
 nukkit.resources.zip.invalid-manifest=「manifest.json」が無効または不完全です
 
+
