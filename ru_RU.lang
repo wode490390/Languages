@@ -22,12 +22,12 @@ nukkit.level.preparing=Подготовка мира «%1$2s»
 nukkit.level.unloading=Подготовка мира «%1$2s»
 nukkit.level.updating=Старые данные мира найдено для «%1$2s», преобразование формата
 
-nukkit.server.start=Запускоем сервер Minecraft: PE на версии %1$2s
+nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
 nukkit.server.networkError=[Network] остановлен %1$2s интерфейс связи %2$2s
 nukkit.server.networkStart=Открытие локального сервера на %1$2s:%2$2s
 nukkit.server.info=Этот сервер %1$2s на версии %2$2s «%3$2s» ( %4$2s API)
 nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s распространяется под лицензией LGPL
+nukkit.server.license=%1$2s is distributed under the GPL License
 nukkit.server.tickOverload=Не удается сохранить! Сервер перегружен?
 nukkit.server.startFinished=Готово (%1$2ss)! Для получения справки введите «/help» или «?»
 nukkit.server.defaultGameMode=По умолчанию тип игры: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Необработанное исключение, вы
 
 nukkit.command.version.description=Получает версию этого сервера, включая любые плагины
 nukkit.command.version.usage=/version [Имя плагина]
-nukkit.command.version.server=Этот сервер работает под управлением версии NukkitX %1$2s (MC: %2$2s) (реализация API версии %3$2s)
+nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 nukkit.command.version.plugin=%1$2s под управлением версии %1$2s
 nukkit.command.version.noSuchPlugin=На этом сервере нет плагина под этим именем. Используйте / plugins, чтобы получить список плагинов.
 
