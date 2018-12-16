@@ -22,12 +22,12 @@ nukkit.level.preparing="%1$2s" 레벨을 준비 중입니다
 nukkit.level.unloading="%1$2s" 레벨을 언로드 중입니다
 nukkit.level.updating="%1$2s"의 레벨 데이터가 오래되었기에 형식을 변환합니다
 
-nukkit.server.start=Minecraft: PE 서버 버전 %1$2s을(를) 시작 중입니다
+nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
 nukkit.server.networkError=[네트워크] 인터페이스 %1$2s이(가) %2$2s(으)로 인해 중지되었습니다
 nukkit.server.networkStart=서버를 %1$2s:%2$2s에서 여는 중입니다
 nukkit.server.info=이 서버는 %1$2s 버전 %2$2s "%3$2s" (API %4$2s)을(를) 실행 중입니다
 nukkit.server.info.extended=이 서버는 Minecraft: Bedrock Edition %4$2s (프로토콜 버전 %5$2s)용 API 버전 %3$2s을(를) 구현하는 %1$2s %2$2s을(를) 실행 중입니다
-nukkit.server.license=%1$2s은(는) LGPL 라이선스 하에 배포됩니다
+nukkit.server.license=%1$2s is distributed under the GPL License
 nukkit.server.tickOverload=따라갈 수 없습니다! 서버가 과부하되었나요?
 nukkit.server.startFinished=완료 (%1$2s초)! 도움말을 참조하려면 "help" 또는 "?"를 입력해주세요
 nukkit.server.defaultGameMode=기본 게임 유형: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=%2$2s에서 '%1$2s' 명령어 실행 중 처리되지 �
 
 nukkit.command.version.description=사용 중인 플러그인을 포함해 이 서버의 버전을 가져옵니다
 nukkit.command.version.usage=/version [플러그인 이름]
-nukkit.command.version.server=이 서버는 NukkitX 버전 %1$2s (MC: %2$2s) (API 버전 %3$2s 구현)을(를) 실행 중입니다
+nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
 nukkit.command.version.plugin=%1$2s 버전 %1$2s을(를) 실행 중입니다
 nukkit.command.version.noSuchPlugin=이 서버는 해당 이름의 플러그인을 실행하고 있지 않습니다. /plugins를 사용해 플러그인 목록을 가져오세요.
 
