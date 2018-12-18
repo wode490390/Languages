@@ -76,9 +76,9 @@ nukkit.crash.error=Could not create crash dump: %1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
 nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=LevelCB-Unterstützung aktiviert
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
+nukkit.bugreport.create=Ein Fehler wurde erkannt, ein Fehlerbericht wurde erstellt.
 nukkit.bugreport.error=Could not create bug report: %1$2s
 nukkit.bugreport.archive=Ein Fehlerbericht wurde erstellt: %1$2s
 
@@ -95,7 +95,7 @@ nukkit.plugin.circularDependency=Circular dependency detected
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
 nukkit.plugin.loadError=Could not load plugin '%1$2s': %2$2s
-nukkit.plugin.duplicateError=Could not load plugin '%1$2s': plugin exists
+nukkit.plugin.duplicateError=Plugin %1$2s konnte nicht geladen werden: Plugin ist vorhanden
 nukkit.plugin.fileError=Could not load '%1$2s' in folder '%2$2s': %3$2s
 nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
 nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
