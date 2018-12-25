@@ -30,25 +30,25 @@ nukkit.server.info.extended=Tento server běží na %1$2s %2$2s s API verzí %3$
 nukkit.server.license=%1$2s je distribuován pod GPL Licencí
 nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
 nukkit.server.startFinished=Hotovo (%1$2ss)! Pokud si nevíš rady napiš "help" nebo "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.defaultGameMode=Výchozí typ hry: %1$2s
+nukkit.server.query.start=Startuji GS4 status listener
+nukkit.server.query.info=Nastavuji query port na %1$2s
+nukkit.server.query.running=Query běží na %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Chyba při startu RCON: chýbí heslo
+nukkit.server.rcon.startupError=Chyba při startu RCON: %1$2s
+nukkit.server.rcon.running=RCON běží na %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
+nukkit.command.alias.illegal=Nelze zaregistrovat alias %1$2s, protože obsahuje ilegální znaky
+nukkit.command.alias.notFound=Nelze zaregistrovat alias %1$2s, protože obsahuje příkaz který neexistuje: %2$2s
 nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
 
 nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.usage=/version [název pluginu]
+nukkit.command.version.server=Tento server běží na %1$2s ve verzi %2$2s(MC:%3$2s) (API verze %4$2s)
+nukkit.command.version.plugin=%1$2s běží ve verzi %1$2s
+nukkit.command.version.noSuchPlugin=Na tomto serveru neběží žádný plugin s tímto jménem. Použij /plugins pro výpis pluginů.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
+nukkit.command.plugins.description=Získej výpis pluginů, které běží na tomto serveru
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
