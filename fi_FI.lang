@@ -22,7 +22,7 @@ nukkit.level.preparing=Valmistellaan tasoa "%1$2s"
 nukkit.level.unloading=Suljetaan tasoa "%1$2s"
 nukkit.level.updating=Tasolle "%1$2s" löytyi vanhentuneet tiedot, muunnetaan formaattia
 
-nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
+nukkit.server.start=Käynnistetään Minecraft Bedrock Edition Palvelinta. Versio: %1$2s
 nukkit.server.networkError=[Network] Pysäytettiin liittymä %1$2s: %2$2s
 nukkit.server.networkStart=Avataan palvelin osoitteessa %1$2s:%2$2s
 nukkit.server.info=Tämä pälvelin käyttää %1$2s versiota %2$2s "%3$2s" (API %4$2s)
