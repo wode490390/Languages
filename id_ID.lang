@@ -87,9 +87,9 @@ nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
 nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
 
-nukkit.plugin.load=Loading %1$2s
+nukkit.plugin.load=Memuat %1$2s
 nukkit.plugin.restrictedName=Restricted name
-nukkit.plugin.incompatibleAPI=Incompatible API version
+nukkit.plugin.incompatibleAPI=Versi API Tidak kompatibel
 nukkit.plugin.unknownDependency=Unknown dependency
 nukkit.plugin.circularDependency=Circular dependency detected
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
