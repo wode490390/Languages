@@ -18,7 +18,7 @@ nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
 nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
 nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
+nukkit.level.preparing=Mempersiapkan level "%1$2s"
 nukkit.level.unloading=Unloading level "%1$2s"
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
