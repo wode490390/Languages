@@ -52,45 +52,45 @@ nukkit.command.plugins.description=Mendapat daftar plugin yang berjalan di serve
 nukkit.command.plugins.success=Plugin (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Membaca kembali kinerja server.
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Merekam waktu untuk melihat kinerja server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.enable=Pengaturan waktu diaktifkan dan reset
+nukkit.command.timings.disable=Pengaturan waktu dinonaktifkan
+nukkit.command.timings.timingsDisabled=Harap aktifkan pewaktuan dengan mengetik /timings on
+nukkit.command.timings.verboseEnable=Diaktifkan timing verbose
+nukkit.command.timings.verboseDisable=Penentuan waktu verbose dinonaktifkan
+nukkit.command.timings.reset=Pengaturan waktu diatur ulang
+nukkit.command.timings.rcon=Peringatan: Laporan waktu yang dilakukan melalui RCON akan menyebabkan lonjakan lag, yang harus Anda gunakan /timings report dalam permainan atau konsol
+nukkit.command.timings.uploadStart=Mempersiapkan laporan ketepatan waktu...
+nukkit.command.timings.uploadError=Kesalahan Pengunggahan: %1$2s: %2$2s, periksa log untuk informasi lebih lanjut
+nukkit.command.timings.reportError=Terjadi kesalahan saat menempelkan laporan, periksa log untuk informasi lebih lanjut
+nukkit.command.timings.timingsLocation=Lihat laporan timing: %1$2s
+nukkit.command.timings.timingsResponse=Tanggapan timing: %1$2s
+nukkit.command.timings.timingsWrite=Pengaturan waktu ditulis untuk %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=Dapatkan versi server ini termasuk semua plugin yang digunakan
+nukkit.crash.error=Tidak dapat membuat pembuangan kecelakaan: %1$2s
+nukkit.crash.submit=Silakan unggah "%1$2s" file ke Arsip Kecelakaan dan kirimkan tautan ke halaman Pelaporan Bug. Berikan info sebanyak mungkin.
+nukkit.crash.archive=Pembuangan kecelakaan telah secara otomatis dikirimkan ke Arsip Kecelakaan. Anda dapat melihatnya di %1$2s atau gunakan ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Dukungan LevelDB diaktifkan
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Kesalahan telah terdeteksi, membuat laporan bug.
+nukkit.bugreport.error=Tidak dapat membuat laporan bug: %1$2s
+nukkit.bugreport.archive=Laporan bug telah dibuat: %1$2s
 
-nukkit.player.invalidMove=%1$2s moved wrongly!
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
-nukkit.player.invalidEntity=%1$2s tried to attack an invalid entity
+nukkit.player.invalidMove=%1$2s bergerak dengan salah!
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] masuk with entity id %4$2s di (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] keluar karena %4$2s
+nukkit.player.invalidEntity=%1$2s mencoba menyerang entitas yang tidak valid
 
 nukkit.plugin.load=Memuat %1$2s
-nukkit.plugin.restrictedName=Restricted name
+nukkit.plugin.restrictedName=Nama terbatas
 nukkit.plugin.incompatibleAPI=Versi API Tidak kompatibel
-nukkit.plugin.unknownDependency=Unknown dependency
+nukkit.plugin.unknownDependency=Ketergantungan tidak diketahui
 nukkit.plugin.circularDependency=Circular dependency detected
 nukkit.plugin.genericLoadError=Could not load plugin '%1$2s'
 nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
