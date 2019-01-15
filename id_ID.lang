@@ -23,33 +23,33 @@ nukkit.level.unloading=Level pembongkaran "%1$2s"
 nukkit.level.updating=Data level lama ditemukan untuk %1$2s", format konversi
 
 nukkit.server.start=Memulai Minecraft: versi server PE %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
-nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
-nukkit.server.startFinished=Done (%1$2ss)! For help, type "help" or "?"
-nukkit.server.defaultGameMode=Default game type: %1$2s
-nukkit.server.query.start=Starting GS4 status listener
-nukkit.server.query.info=Setting query port to %1$2s
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.networkError=[Jaringan] Menghentikan antarmuka %1$2s disebabkan oleh %2$2s
+nukkit.server.networkStart=Membuka server aktif %1$2s:%2$2s
+nukkit.server.info=Server ini sedang berjalan %1$2s versi %2$2s "%3$2s" (API %4$2s)
+nukkit.server.info.extended=Server ini sedang berjalan %1$2s %2$2s mengimplementasikan versi API %3$2s untuk Minecraft: PE %4$2s (versi protokol %5$2s)
+nukkit.server.license=%1$2s didistribusikan di bawah Lisensi LGPL
+nukkit.server.tickOverload=Tidak bisa mengikuti! Apakah server kelebihan beban?
+nukkit.server.startFinished=Selesai (%1$2ss)! Untuk bantuan, ketik "help" atau "?"
+nukkit.server.defaultGameMode=Jenis permainan standar: %1$2s
+nukkit.server.query.start=Memulai pendengar status GS4
+nukkit.server.query.info=Mengatur port kueri ke %1$2s
+nukkit.server.query.running=Kueri sedang berjalan %1$2s %2$2s
+nukkit.server.rcon.emptyPasswordError=Gagal memulai RCON: kata sandi kosong
+nukkit.server.rcon.startupError=Gagal memulai RCON: %1$2s
+nukkit.server.rcon.running=RCON sedang berjalan %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Tidak dapat mendaftar alias %1$2s karena mengandung karakter ilegal
+nukkit.command.alias.notFound=Tidak dapat mendaftar alias %1$2s karena mengandung perintah yang tidak ada: %2$2s
+nukkit.command.exception=Perintah eksekusi eksepsi yang tidak ditangani '%1$2s' di %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.description=Dapatkan versi server ini termasuk semua plugin yang digunakan
+nukkit.command.version.usage=/version [nama plugin]
+nukkit.command.version.server=Server ini sedang berjalan %1$2s versi %2$2s (MC: %3$2s) (Menerapkan versi API %4$2s)
+nukkit.command.version.plugin=%1$2s versi yang sedang berjalan %1$2s
+nukkit.command.version.noSuchPlugin=Server ini tidak menjalankan plugin apa pun dengan nama itu. Menggunakan /plugins untuk mendapatkan daftar plugin.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=Mendapat daftar plugin yang berjalan di server
+nukkit.command.plugins.success=Plugin (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
 nukkit.command.status.description=Reads back the server's performance.
