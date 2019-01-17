@@ -46,9 +46,9 @@ nukkit.command.version.description=使用しているプラグインを含めた
 nukkit.command.version.usage=/version [プラグイン名]
 nukkit.command.version.server=このサーバーは %1$2s バージョン %2$2s（MC：%3$2s）（API バージョン %4$2s を実装）を実行しています
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
-nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインリストを取得してください。
+nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
-nukkit.command.plugins.description=サーバー上に実行されているプラグインリストを取得します
+nukkit.command.plugins.description=サーバー上に実行されているプラグインの一覧を取得します
 nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
 nukkit.command.plugins.usage=/plugins
 
@@ -83,7 +83,7 @@ nukkit.bugreport.error=バグレポートを作成できませんでした：%1$
 nukkit.bugreport.archive=バグレポートが作成されました：%1$2s
 
 nukkit.player.invalidMove=%1$2s が違った移動を見せました！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] がエンティティ ID %4$2s として（%5$2s、%6$2s、%7$2s、%8$2s）にログインしました
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] がエンティティ ID %4$2s として (%5$2s, %6$2s, %7$2s, %8$2s) にログインしました
 nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] が %4$2s によってログアウトされました
 nukkit.player.invalidEntity=%1$2s が無効なエンティティを攻撃しようとしました
 
