@@ -26,7 +26,7 @@ nukkit.server.start=Starte Minecraft Bedrock Edition Server, Version %1$2s
 nukkit.server.networkError=[Netzwerk] Anschluss %1$2s wird geschlossen wegen %2$2s
 nukkit.server.networkStart=Server auf %1$2s:%2$2s wird geöffnet
 nukkit.server.info=Dieses Server läuft auf %1$2s Version %2$2s "%3$2s" (API %4$2s)
-nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
+nukkit.server.info.extended=Dieser Server läuft %1$2s %2$2s mit der implementierten API Version %3$2s für Minecraft: Bedrock Edition %4$2s (Protokollversion %5$2s)
 nukkit.server.license=%1$2s wurde unter der GPL Lizenz veröffentlicht
 nukkit.server.tickOverload=Kann nicht mithalten! Ist der Server überlastet?
 nukkit.server.startFinished=Fertig (%1$2ss)! Für Hilfe, tippen Sie "help" oder "?"
@@ -63,18 +63,18 @@ nukkit.command.timings.timingsDisabled=Bitte aktiviere die Timings mit /timings 
 nukkit.command.timings.verboseEnable=Ausführliche Timings wurden aktiviert
 nukkit.command.timings.verboseDisable=Ausführliche Timings wurden deaktiviert
 nukkit.command.timings.reset=Timings zurücksetzen
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
+nukkit.command.timings.rcon=Warnung: Timings Bericht über RCON wird Lag Spikes verursachen, du solltest /timings report im Spiel oder der Konsole verwenden
 nukkit.command.timings.uploadStart=Bereite Timings Bericht vor...
 nukkit.command.timings.uploadError=Upload Fehler: %1$2s: %2$2s, schaue in die Logs für mehr Informationen
 nukkit.command.timings.reportError=Ein Fehler ist aufgetreten während des speicherns des Berichts, schaue in die Konsole für mehr Informationen
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
+nukkit.command.timings.timingsLocation=Timings Bericht anzeigen: %1$2s
 nukkit.command.timings.timingsResponse=Timings Antwort: %1$2s
 nukkit.command.timings.timingsWrite=Timings in %1$2s geschrieben
 
 nukkit.crash.create=Ein unerwarteter Fehler ist aufgetreten und der Server ist abgestürzt. Ein Crash dump wird erstellt
 nukkit.crash.error=Crash-Dump konnte nicht erstellt werden: %1$2s
 nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.archive=Der Absturzbericht wurde automatisch übermittelt. Du siehst es auf %1$2s oder verwende die ID #%2$2s.
 
 nukkit.debug.enable=LevelCB-Unterstützung aktiviert
 
