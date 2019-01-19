@@ -57,7 +57,7 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=서버의 성능 확인을 위해 타이밍을 기록합니다.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=타이밍 및 초기화를 활성화했습니다
+nukkit.command.timings.enable=타이밍을 활성화 및 초기화했습니다
 nukkit.command.timings.disable=타이밍을 비활성화했습니다
 nukkit.command.timings.timingsDisabled=/timings on을 입력해 타이밍을 활성화해주세요
 nukkit.command.timings.verboseEnable=버보스 타이밍을 활성화했습니다
