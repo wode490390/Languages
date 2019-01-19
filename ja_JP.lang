@@ -57,7 +57,7 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=サーバーのパフォーマンスを確認するためタイミングを記録します。
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=タイミングおよびリセットを有効にしました
+nukkit.command.timings.enable=タイミングを有効にしてリセットしました
 nukkit.command.timings.disable=タイミングを無効にしました
 nukkit.command.timings.timingsDisabled=/timings on を入力してタイミングを有効にしてください
 nukkit.command.timings.verboseEnable=バーボーズタイミングを有効にしました
