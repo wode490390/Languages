@@ -78,7 +78,7 @@ nukkit.crash.archive=충돌 덤프가 자동으로 충돌 보관소에 제출되
 
 nukkit.debug.enable=LevelDB 지원이 활성화되었습니다
 
-nukkit.bugreport.create=오류가 감지되어 버그 보고서를 생성합니다.
+nukkit.bugreport.create=오류가 감지되었기에 버그 보고서를 생성합니다.
 nukkit.bugreport.error=버그 보고서를 생성할 수 없습니다: %1$2s
 nukkit.bugreport.archive=버그 보고서가 생성되었습니다: %1$2s
 
