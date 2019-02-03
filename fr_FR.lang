@@ -13,13 +13,13 @@ nukkit.data.saveError=Impossible d'enregistrer le joueur "%1$2s": %2$2s
 
 nukkit.level.notFound=Niveau "%1$2s" introuvable
 nukkit.level.loadError=Impossible de charger le niveau "%1$2s": %2$2s
-nukkit.level.generationError=Impossible de générer le terrain "%1$2s" : %2$2s
+nukkit.level.generationError=Impossible de générer le niveau "%1$2s" : %2$2s
 nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
 nukkit.level.chunkUnloadError=Erreur lors du déchargement d'un chunk : %1$2s
-nukkit.level.backgroundGeneration=Le point apparition du terrain pour le niveau "%1$2s" est générée en arrière-plan
-nukkit.level.defaultError=No default level has been loaded
-nukkit.level.preparing=Preparing level "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
+nukkit.level.backgroundGeneration=Le point apparition pour le niveau "%1$2s" est générée en arrière-plan
+nukkit.level.defaultError=Aucun niveau par défaut n'a été chargé
+nukkit.level.preparing=Préparation du niveau "%1$2s"
+nukkit.level.unloading=Déchargement du niveau «%1$2s »
 nukkit.level.updating=Old level data found for "%1$2s", converting format
 
 nukkit.server.start=Starting Minecraft: Bedrock Edition server version %1$2s
