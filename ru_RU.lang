@@ -27,7 +27,7 @@ nukkit.server.networkError=[Network] Интерфейс %1$2s остановле
 nukkit.server.networkStart=Запускаю сервер на %1$2s:%2$2s
 nukkit.server.info=Сервер находится под управлением %1$2s версии %2$2s «%3$2s» ( %4$2s API)
 nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
-nukkit.server.license=%1$2s is distributed under the GPL License
+nukkit.server.license=%1$2s распространяется под лицензией GPL
 nukkit.server.tickOverload=Не удается сохранить! Сервер перегружен?
 nukkit.server.startFinished=Готово (%1$2ss)! Для получения справки введите «/help» или «?»
 nukkit.server.defaultGameMode=Режим игры по умолчанию: %1$2s
@@ -44,7 +44,7 @@ nukkit.command.exception=Необработанное исключение, вы
 
 nukkit.command.version.description=Получает версию этого сервера, включая любые плагины
 nukkit.command.version.usage=/version [Имя плагина]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
+nukkit.command.version.server=Этот сервер работает на %1$2s версии %2$2s (MC: %3$2s) (Версия API %4$2s)
 nukkit.command.version.plugin=%1$2s под управлением версии %1$2s
 nukkit.command.version.noSuchPlugin=На этом сервере нет плагина под этим именем. Используйте / plugins, чтобы получить список плагинов.
 
