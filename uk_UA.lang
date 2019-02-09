@@ -33,26 +33,26 @@ nukkit.server.startFinished=Готово (%1$2ss)! Для довідки, вве
 nukkit.server.defaultGameMode=Режим гри за замовчуванням: %1$2s
 nukkit.server.query.start=Запуск слухача статусу GS4
 nukkit.server.query.info=Встановлення %1$2s як порт query
-nukkit.server.query.running=Query is running on %1$2s:%2$2s
-nukkit.server.rcon.emptyPasswordError=Failed to start RCON: password is empty
-nukkit.server.rcon.startupError=Failed to start RCON: %1$2s
-nukkit.server.rcon.running=RCON is running on %1$2s:%2$2s
+nukkit.server.query.running=Query працює на %1$2s:%2$2s
+nukkit.server.rcon.emptyPasswordError=Не вдалося запустити RCON: не вказано пароль
+nukkit.server.rcon.startupError=Не вдалося запустити RCON: %1$2s
+nukkit.server.rcon.running=RCON запущено на %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Не вдалося зареєструвати alias %1$2s, бо він містить неприпустимі символи
+nukkit.command.alias.notFound=Не вдалося зареєструвати alias %1$2s, бо він містить неіснуючі команди: %2$2s
+nukkit.command.exception=Необроблений вийняток під час виконання команди '%1$2s' в %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.description=Отримує версію сервера, включно з плагінами, що використовуються
+nukkit.command.version.usage=/version [назва плагіну]
+nukkit.command.version.server=Сервер працює на %1$2s версії %2$2s (MC: %3$2s) (версія API %4$2s)
+nukkit.command.version.plugin=%1$2s під керуванням версії %1$2s
+nukkit.command.version.noSuchPlugin=На сервері немає плагіна з такою назвою. Використовуйте /plugins, щоб отримати список плагінів.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=Отримує список плагінів на сервері
+nukkit.command.plugins.success=Плагіни (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Виводить інформацію про продуктивність сервера.
 nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Records timings to see performance of the server.
