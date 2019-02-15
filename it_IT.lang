@@ -4,7 +4,7 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=Selezionato %1$2s come locale predefinito.
 
 nukkit.data.playerNotFound=Dati del player non trovati per "%1$2s", creando un nuovo profilo
 nukkit.data.playerCorrupted=Trovati dati corrotti per "%1$2s", creando un nuovo profilo
@@ -24,7 +24,7 @@ nukkit.level.updating=Vecchi dati del mondo "%1$2s" trovati, convertendo il form
 
 nukkit.server.start=Iniziando Minecraft: Bedrock Edition server versione %1$2s
 nukkit.server.networkError=[Network] Fermata interfaccia %1$2s dovuta a %2$2s
-nukkit.server.networkStart=Opening server on %1$2s:%2$2s
+nukkit.server.networkStart=Aprendo il server su %1$2s:%2$2s
 nukkit.server.info=This server is running %1$2s version %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=This server is running %1$2s %2$2s implementing API version %3$2s for Minecraft: Bedrock Edition %4$2s (protocol version %5$2s)
 nukkit.server.license=%1$2s is distributed under the GPL License
