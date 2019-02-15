@@ -38,27 +38,27 @@ nukkit.server.rcon.emptyPasswordError=Errore nell'avviare RCON: password mancant
 nukkit.server.rcon.startupError=Errore nell'avviare RCON: %1$2s
 nukkit.server.rcon.running=RCON è in esecuzione su %1$2s:%2$2s
 
-nukkit.command.alias.illegal=Could not register alias %1$2s because it contains illegal characters
-nukkit.command.alias.notFound=Could not register alias %1$2s because it contains commands that do not exist: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.alias.illegal=Impossibile registrare l'alias %1$2s perché contiene caratteri illegali
+nukkit.command.alias.notFound=Impossibile registrare l'alias %1$2s perché contiene comandi che non esistono: %2$2s
+nukkit.command.exception=Comando di esecuzione errato '%1$2s' in %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
-nukkit.command.version.usage=/version [plugin name]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
-nukkit.command.version.noSuchPlugin=This server is not running any plugin by that name. Use /plugins to get a list of plugins.
+nukkit.command.version.description=Ottiene la versione di questo server inclusi tutti i plugin in uso
+nukkit.command.version.usage=/versione [nome plugin]
+nukkit.command.version.server=Questo server è in esecuzione %1$2s versione %2$2s (MC: %3$2s) (Implementato API versione %4$2s)
+nukkit.command.version.plugin=%1$2s versione di esecuzione %1$2s
+nukkit.command.version.noSuchPlugin=Questo server non usa alcun plugin con quel nome. Usa /plugins per ottenere una lista dei plugin.
 
-nukkit.command.plugins.description=Gets a list of plugins running on the server
-nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
+nukkit.command.plugins.description=Ottieni una lista dei plugins in esecuzione su questo server
+nukkit.command.plugins.success=Plugins (%1$2s) %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Ottieni le prestazioni del server.
 nukkit.command.status.usage=/stato
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Registra i tempi per vedere le prestazioni del server.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
+nukkit.command.timings.enable=Abilitazione e reset dei tempi
+nukkit.command.timings.disable=Disabilitando i tempi
 nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
 nukkit.command.timings.verboseEnable=Enabled verbose timings
 nukkit.command.timings.verboseDisable=Disabled verbose timings
