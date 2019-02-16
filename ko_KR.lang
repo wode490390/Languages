@@ -103,7 +103,7 @@ nukkit.plugin.deprecatedEvent='%1$2s' 플러그인이 '%2$2s'에 대한 리스�
 nukkit.plugin.eventError='%1$2s' 이벤트를 '%2$2s'에 전달할 수 없습니다: %4$2s에서의 %3$2s
 
 nukkit.resources.invalid-path='%1$2s' 리소스 팩 경로가 존재하며 디렉터리가 아닙니다
-nukkit.resources.unknown-format=형식이 인식되지 않아 '%1$2s'을(를) 불러올 수 없습니다
+nukkit.resources.unknown-format=형식을 인식할 수 없기에 '%1$2s'을(를) 불러올 수 없습니다
 nukkit.resources.fail='%1$2s'을(를) 불러올 수 없습니다: %2$2s
 nukkit.resources.success=리소스 팩 %1$2s개를 성공적으로 불러왔습니다
 nukkit.resources.zip.not-found='%1$2s' 파일을 찾을 수 없습니다
