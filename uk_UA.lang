@@ -69,12 +69,12 @@ nukkit.command.timings.uploadError=Помилка завантаження: %1$2
 nukkit.command.timings.reportError=Сталася помилка під час вставлення звіту, перегляньте журнали, щоб отримати додаткову інформацію
 nukkit.command.timings.timingsLocation=Переглянути звіт таймінгів: %1$2s
 nukkit.command.timings.timingsResponse=Відповідь таймінгів: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.timingsWrite=Таймінги записано до %1$2s
 
 nukkit.crash.create=Сталася критична помилка, і сервер вийшов з ладу. Створення аварійного дампу
 nukkit.crash.error=Не вдалося створити аварійний дамп: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=Аварійний дамп автоматично надіслано до Crash Archive. Ви можене переглянути його на %1$2s або використовувати ID #%2$2s.
+nukkit.crash.submit=Будь ласка, завантажте файл "%1$2s" до Crash Archive та надішліть посилання на сторінку Bug Reporting. Надайде якомога більше інформації.
+nukkit.crash.archive=Аварійний дамп автоматично надіслано до Crash Archive. Ви можете переглянути його на %1$2s або використовувати ID #%2$2s.
 
 nukkit.debug.enable=Увімкнено підтримку LevelDB
 
