@@ -55,7 +55,7 @@ nukkit.command.plugins.usage=/plugins
 nukkit.command.status.description=サーバーのパフォーマンスを読み出します。
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=サーバーのパフォーマンスを確認するためタイミングを記録します。
+nukkit.command.timings.description=サーバーのパフォーマンスを確認するためにタイミングを記録します。
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=タイミングを有効にしてリセットしました
 nukkit.command.timings.disable=タイミングを無効にしました
