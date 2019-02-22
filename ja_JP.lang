@@ -4,7 +4,7 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=%1$2s をデフォルトのロケールとして設定しました。
+nukkit.language.selected=%1$2s をデフォルトのロケールとして選択しました。
 
 nukkit.data.playerNotFound=「%1$2s」のプレイヤーデータが見つからないため、新しいプロフィールを作成します
 nukkit.data.playerCorrupted=「%1$2s」の破損したプレイヤーデータが見つかったため、新しいプロフィールを作成します
