@@ -57,7 +57,7 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Записує таймінги, щоб побачити продуктивність сервера.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
+nukkit.command.timings.enable=Таймінги увімкнено та скинуто
 nukkit.command.timings.disable=Таймінги вимкнено
 nukkit.command.timings.timingsDisabled=Увімкніть таймінги командою /timings
 nukkit.command.timings.verboseEnable=Увімкнено детальні таймінги
