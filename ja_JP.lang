@@ -48,7 +48,7 @@ nukkit.command.version.server=このサーバーは %1$2s バージョン %2$2s�
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
 nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
-nukkit.command.plugins.description=サーバー上に実行されているプラグインの一覧を取得します
+nukkit.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します
 nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
 nukkit.command.plugins.usage=/plugins
 
