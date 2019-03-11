@@ -44,8 +44,8 @@ nukkit.command.exception=%2$2s 在执行命令 "%1$2s" 时，出现了未被处�
 
 nukkit.command.version.description=获取此服务器及其使用的插件的版本
 nukkit.command.version.usage=/version [插件名称]
-nukkit.command.version.server=This server is running %1$2s version %2$2s (MC: %3$2s) (Implementing API version %4$2s)
-nukkit.command.version.plugin=%1$2s running version %1$2s
+nukkit.command.version.server=此服务器正在运行 %1$2s %2$2s 版本 (MC: %3$2s) (API 版本 %4$2s)
+nukkit.command.version.plugin=%1$2s 正在运行 %1$2s 版本
 nukkit.command.version.noSuchPlugin=该服务器未在运行名为此的插件。使用 /plugins 获取插件列表。
 
 nukkit.command.plugins.description=获取服务器上运行的插件列表
@@ -64,27 +64,27 @@ nukkit.command.timings.verboseEnable=启用详细计时
 nukkit.command.timings.verboseDisable=禁用详细计时
 nukkit.command.timings.reset=重置计时
 nukkit.command.timings.rcon=警告：通过 RCON 呈交的时序报告可能会导致延迟突发，您应当在游戏或控制台中使用 /timings report
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.uploadStart=准备时序报告中...
+nukkit.command.timings.uploadError=上传出错：%1$2s: %2$2s，请检查日志获取更多信息
+nukkit.command.timings.reportError=粘贴报告时发生错误，请检查日志获取更多信息
+nukkit.command.timings.timingsLocation=查看时序报告：%1$2s
+nukkit.command.timings.timingsResponse=计时响应：%1$2s
+nukkit.command.timings.timingsWrite=时序写入 %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=发生了一个无法恢复的错误，导致服务器崩溃。正在生成错误报告
+nukkit.crash.error=未能保存错误报告：%1$2s
+nukkit.crash.submit=请上传错误报告 "%1$2s"，并把链接提交至错误报告反馈页。请尽量提供更多资料。
+nukkit.crash.archive=错误报告已被自动上传。您可以在 %1$2s 查看，或使用 ID #%2$2s。
 
 nukkit.debug.enable=启用 LevelDB 支持
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=侦测到一个错误，正在生成错误报告。
+nukkit.bugreport.error=无法生成错误报告：%1$2s
+nukkit.bugreport.archive=创建错误报告：%1$2s
 
 nukkit.player.invalidMove=%1$2s 行动可疑！
-nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] logged in with entity id %4$2s at (%5$2s, %6$2s, %7$2s, %8$2s)
-nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] logged out due to %4$2s
+nukkit.player.logIn=%1$2s[/%2$2s:%3$2s] 登入游戏，实体 ID 为 %4$2s，坐标位于 (%5$2s, %6$2s, %7$2s, %8$2s)
+nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] 登出游戏，原因：%4$2s
 nukkit.player.invalidEntity=%1$2s 尝试攻击一个无效的实体
 
 nukkit.plugin.load=读取 %1$2s 中
