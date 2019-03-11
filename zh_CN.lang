@@ -7,8 +7,8 @@
 nukkit.language.selected=将 %1$2s 设置为默认语言。
 
 nukkit.data.playerNotFound=无法找到玩家 "%1$2s" 的数据，正在创建新数据
-nukkit.data.playerCorrupted=玩家 "%1$2s" 的数据已损坏，正在创建新数据
-nukkit.data.playerOld=找到玩家 "%1$2s" 的旧数据，正在更新数据
+nukkit.data.playerCorrupted=玩家 "%1$2s" 的数据已损坏，正在创建新的玩家数据
+nukkit.data.playerOld=找到玩家 "%1$2s" 的旧数据，正在更新玩家数据
 nukkit.data.saveError=无法保存玩家 "%1$2s" 的数据：%2$2s
 
 nukkit.level.notFound=无法找到世界 "%1$2s"
@@ -18,12 +18,12 @@ nukkit.level.tickError=更新世界 "%1$2s" 时出现错误：%2$2s
 nukkit.level.chunkUnloadError=卸载区块时发生错误：%1$2s
 nukkit.level.backgroundGeneration=正在后台生成世界 "%1$2s" 地形
 nukkit.level.defaultError=默认世界尚未加载
-nukkit.level.preparing=准备世界 "%1$2s" 中
-nukkit.level.unloading=卸载世界 "%1$2s" 中
-nukkit.level.updating=发现旧世界数据 "%1$2s"，正在转换格式
+nukkit.level.preparing=正在准备世界 "%1$2s"
+nukkit.level.unloading=正在卸载世界 "%1$2s"
+nukkit.level.updating=发现有旧世界的数据 "%1$2s"，正在转换格式
 
 nukkit.server.start=正在启动 Minecraft: BE %1$2s 版本的服务器
-nukkit.server.networkError=[网络] 终止连接 %1$2s 因 %2$2s
+nukkit.server.networkError=[Network] 由于 %2$2s，现 %1$2s 中断连接
 nukkit.server.networkStart=正在将服务器启动于 %1$2s:%2$2s
 nukkit.server.info=此服务器正在运行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
 nukkit.server.info.extended=此服务器正在运行 %1$2s %2$2s API 版本 %3$2s 的 Minecraft: BE %4$2s (协议版本 %5$2s)
