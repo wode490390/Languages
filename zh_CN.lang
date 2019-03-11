@@ -22,7 +22,7 @@ nukkit.level.preparing=准备世界 "%1$2s" 中
 nukkit.level.unloading=卸载世界 "%1$2s" 中
 nukkit.level.updating=发现旧世界数据 "%1$2s"，正在转换格式
 
-nukkit.server.start=正在启动 Minecraft: BE 服务器版本 %1$2s
+nukkit.server.start=正在启动 Minecraft: BE %1$2s 版本的服务器
 nukkit.server.networkError=[网络] 终止连接 %1$2s 因 %2$2s
 nukkit.server.networkStart=正在将服务器启动于 %1$2s:%2$2s
 nukkit.server.info=此服务器正在运行 %1$2s %2$2s 版本 "%3$2s" (API %4$2s)
