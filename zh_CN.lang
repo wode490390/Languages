@@ -6,21 +6,21 @@
 
 nukkit.language.selected=将 %1$2s 设置为默认语言。
 
-nukkit.data.playerNotFound=无法找到玩家 "%1$2s" 的数据，正在创建新数据
+nukkit.data.playerNotFound=无法找到玩家 "%1$2s" 的数据，正在创建新的玩家数据
 nukkit.data.playerCorrupted=玩家 "%1$2s" 的数据已损坏，正在创建新的玩家数据
 nukkit.data.playerOld=找到玩家 "%1$2s" 的旧数据，正在更新玩家数据
 nukkit.data.saveError=无法保存玩家 "%1$2s" 的数据：%2$2s
 
-nukkit.level.notFound=无法找到世界 "%1$2s"
-nukkit.level.loadError=无法加载世界 "%1$2s"：%2$2s
-nukkit.level.generationError=无法生成世界 "%1$2s"：%2$2s
-nukkit.level.tickError=更新世界 "%1$2s" 时出现错误：%2$2s
+nukkit.level.notFound=无法找到地图 "%1$2s"
+nukkit.level.loadError=无法加载地图 "%1$2s"：%2$2s
+nukkit.level.generationError=无法生成地图 "%1$2s"：%2$2s
+nukkit.level.tickError=更新地图 "%1$2s" 时出现错误：%2$2s
 nukkit.level.chunkUnloadError=卸载区块时发生错误：%1$2s
-nukkit.level.backgroundGeneration=正在后台生成世界 "%1$2s" 地形
-nukkit.level.defaultError=默认世界尚未加载
-nukkit.level.preparing=正在准备世界 "%1$2s"
-nukkit.level.unloading=正在卸载世界 "%1$2s"
-nukkit.level.updating=发现有旧世界的数据 "%1$2s"，正在转换格式
+nukkit.level.backgroundGeneration=正在后台生成地图 "%1$2s" 地形
+nukkit.level.defaultError=默认地图尚未被加载
+nukkit.level.preparing=正在准备地图 "%1$2s"
+nukkit.level.unloading=正在卸载地图 "%1$2s"
+nukkit.level.updating=发现有旧地图的数据 "%1$2s"，正在转换格式
 
 nukkit.server.start=正在启动 Minecraft: BE %1$2s 版本的服务器
 nukkit.server.networkError=[Network] 由于 %2$2s，现 %1$2s 中断连接
