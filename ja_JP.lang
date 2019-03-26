@@ -46,7 +46,7 @@ nukkit.command.version.description=使用しているプラグインを含めた
 nukkit.command.version.usage=/version [プラグイン名]
 nukkit.command.version.server=このサーバーは %1$2s バージョン %2$2s（MC：%3$2s）（API バージョン %4$2s を実装）を実行しています
 nukkit.command.version.plugin=%1$2s バージョン %1$2s を実行しています
-nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインを実行していません。/plugins を使用してプラグインの一覧を取得してください。
+nukkit.command.version.noSuchPlugin=このサーバーはその名前のプラグインは実行していません。/plugins を使用してプラグインの一覧を取得してください。
 
 nukkit.command.plugins.description=サーバー上で実行されているプラグインの一覧を取得します
 nukkit.command.plugins.success=プラグイン（%1$2s）：%2$2s
