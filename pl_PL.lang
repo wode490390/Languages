@@ -4,7 +4,7 @@
 # These are custom localizations that need to be converted before being sent or used in the console.
 #
 
-nukkit.language.selected=Selected %1$2s as the default locale.
+nukkit.language.selected=Wybranych %1$2s jako domyślne ustawienia regionalne.
 
 nukkit.data.playerNotFound=Player data not found for "%1$2s", creating new profile
 nukkit.data.playerCorrupted=Corrupted data found for "%1$2s", creating new profile
