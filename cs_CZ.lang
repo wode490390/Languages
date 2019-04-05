@@ -100,9 +100,9 @@ nukkit.plugin.fileError=Nelze načíst '%1$2s' ve složce '%2$2s': %3$2s
 nukkit.plugin.commandError=Nepodařilo se načíst příkaz %1$2s pro plugin %2$2s
 nukkit.plugin.aliasError=Nepodařilo se načíst alias %1$2s pro plugin %2$2s
 nukkit.plugin.deprecatedEvent=Plugin '%1$2s' zaregistroval listener pro %2$2s na metodu %3$2s, ale event je zastaralý.
-nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
+nukkit.plugin.eventError=Nepodařilo se zpracovat event '%1$2s' pluginu '%2$2s': %3$2s na '%4$2s'
 
-nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
+nukkit.resources.invalid-path=Cesta k balíčku zdrojů '%1$2s' existuje a není zde adresář
 nukkit.resources.unknown-format=Nelze načíst '%1$2s' nebyl rozpoznán formát
 nukkit.resources.fail=Nelze načíst '%1$2s': %2$2s
 nukkit.resources.success=Uspěšně načten %1$2s resource pack
