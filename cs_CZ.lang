@@ -57,30 +57,30 @@ nukkit.command.status.usage=/status
 
 nukkit.command.timings.description=Zaznamená časování pro přehled o vytížení serveru.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
-nukkit.command.timings.enable=Enabled timings and reset
-nukkit.command.timings.disable=Disabled timings
-nukkit.command.timings.timingsDisabled=Please enable timings by typing /timings on
-nukkit.command.timings.verboseEnable=Enabled verbose timings
-nukkit.command.timings.verboseDisable=Disabled verbose timings
-nukkit.command.timings.reset=Timings reset
-nukkit.command.timings.rcon=Warning: Timings report done over RCON will cause lag spikes, you should use /timings report in game or console
-nukkit.command.timings.uploadStart=Preparing timings report...
-nukkit.command.timings.uploadError=Upload Error: %1$2s: %2$2s, check logs for more information
-nukkit.command.timings.reportError=An error happened while pasting the report, check logs for more information
-nukkit.command.timings.timingsLocation=View timings report: %1$2s
-nukkit.command.timings.timingsResponse=Timings response: %1$2s
-nukkit.command.timings.timingsWrite=Timings written to %1$2s
+nukkit.command.timings.enable=Časování vyresetováno a zapnuto
+nukkit.command.timings.disable=Časování vypnuto
+nukkit.command.timings.timingsDisabled=Časování můžeš zapnout příkazem /timings on
+nukkit.command.timings.verboseEnable=Podrobné časování zapnuto
+nukkit.command.timings.verboseDisable=Podrobné časování vypnuto
+nukkit.command.timings.reset=Časování vyresetováno
+nukkit.command.timings.rcon=Upozornění: Časování prováděné přes RCON způsobí záseky serveru, měli byste použít /timings report v konzoli nebo ve hře
+nukkit.command.timings.uploadStart=Připravuji výsledek časování...
+nukkit.command.timings.uploadError=Chyba nahrávání: %1$2s: %2$2s, zkontroluj logy pro více informací
+nukkit.command.timings.reportError=Vyskytla se chyba při ukládání hlášení, zkontroluj logy pro více informací
+nukkit.command.timings.timingsLocation=Podívej se na hlášení z časování: %1$2s
+nukkit.command.timings.timingsResponse=Odpověď časování: %1$2s
+nukkit.command.timings.timingsWrite=Časování zapsáno do %1$2s
 
-nukkit.crash.create=An unrecoverable error has occurred and the server has crashed. Creating a crash dump
-nukkit.crash.error=Could not create crash dump: %1$2s
-nukkit.crash.submit=Please upload the "%1$2s" file to the Crash Archive and submit the link to the Bug Reporting page. Give as much info as you can.
-nukkit.crash.archive=The crash dump has been automatically submitted to the Crash Archive. You can view it on %1$2s or use the ID #%2$2s.
+nukkit.crash.create=Vyskytla se neopravitelná chyba a server spadl. Vytvářím crash dump
+nukkit.crash.error=Nepodařilo se vytvořit crash dump: %1$2s
+nukkit.crash.submit=Prosím nahrajte soubor "%1$2s" do crash archivu a přilož odkaz na stránku pro hlášení chyb. Poskytněte nejvíc informací co můžete.
+nukkit.crash.archive=Crash dump byl automaticky poslán do crash archivu. Můžete si ho prohlédnout na %1$2s nebo pomocí ID #%2$2s.
 
-nukkit.debug.enable=LevelDB support enabled
+nukkit.debug.enable=Podpora LevelDB zapnuta
 
-nukkit.bugreport.create=An error has been detected, creating a bug report.
-nukkit.bugreport.error=Could not create bug report: %1$2s
-nukkit.bugreport.archive=A bug report has been created: %1$2s
+nukkit.bugreport.create=Byla detekována chyba, vytvářím hlášení chyby.
+nukkit.bugreport.error=Nepodařilo se vytvořit hlášení chyby: %1$2s
+nukkit.bugreport.archive=Hlášení chyby bylo vytvořeno: %1$2s
 
 nukkit.player.invalidMove=%1$2s se pohnul špatně!
 nukkit.player.logIn=%1$2s [/%2$2s:%3$2s] se přihlásil/a s entity id %4$2s v (%5$2s, %6$2s, %7$2s, %8$2s)
@@ -88,12 +88,12 @@ nukkit.player.logOut=%1$2s[/%2$2s:%3$2s] se odhlásil/a z důvodu %4$2s
 nukkit.player.invalidEntity=%1$2s zkusil/a napadnout neplatnou bytost
 
 nukkit.plugin.load=Načítám %1$2s
-nukkit.plugin.restrictedName=Restricted name
+nukkit.plugin.restrictedName=Vyhrazené jméno
 nukkit.plugin.incompatibleAPI=Nekompatibilní API verze
 nukkit.plugin.unknownDependency=Neznámá závislost
 nukkit.plugin.circularDependency=Circular dependency detected
 nukkit.plugin.genericLoadError=Nelze načíst plugin '%1$2s '
-nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' uses spaces in its name, this is discouraged
+nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' používá mezeru ve jménu, což se nepoužívá
 nukkit.plugin.loadError=Nelze načíst plugin '%1$2s': %2$2s
 nukkit.plugin.duplicateError=Nelze načíst plugin '%1$2s': plugin existuje
 nukkit.plugin.fileError=Nelze načíst '%1$2s' ve složce '%2$2s': %3$2s
