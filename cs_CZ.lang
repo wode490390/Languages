@@ -14,21 +14,21 @@ nukkit.data.saveError=Nelze uložit hráče "%1$2s": %2$2s
 nukkit.level.notFound=Svět "%1$2s" nenalezen
 nukkit.level.loadError=Nelze načíst svět "%1$2s":%2$2s
 nukkit.level.generationError=Nelze vygenerovat svět "%1$2s":%2$2s
-nukkit.level.tickError=Could not tick level "%1$2s": %2$2s
-nukkit.level.chunkUnloadError=Error while unloading a chunk: %1$2s
-nukkit.level.backgroundGeneration=Spawn terrain for level "%1$2s" is being generated in the background
+nukkit.level.tickError=Nepodařilo se provést tick levelu "%1$2s": %2$2s
+nukkit.level.chunkUnloadError=Chyba při ukládání chunku: %1$2s
+nukkit.level.backgroundGeneration=Terén světa "%1$2s" se právě generuje na pozadí
 nukkit.level.defaultError=Nebyl načten žádný výchozí svět
 nukkit.level.preparing=Připravuji svět "%1$2s"
-nukkit.level.unloading=Unloading level "%1$2s"
+nukkit.level.unloading=Ukládání světa "%1$2s"
 nukkit.level.updating=Staré data byly nalezeny pro svět "%1$2s", měním formát
 
 nukkit.server.start=Zapínám Minecraft: Bedrock Edition server verze %1$2s
-nukkit.server.networkError=[Network] Stopped interface %1$2s due to %2$2s
+nukkit.server.networkError=[Network] Zastaven interface %1$2s kvůli %2$2s
 nukkit.server.networkStart=Otevírám server na %1$2s:%2$2s
 nukkit.server.info=Tento server běží na %1$2s ve verzi %2$2s "%3$2s" (API %4$2s)
 nukkit.server.info.extended=Tento server běží na %1$2s %2$2s s API verzí %3$2s pro Minecraft: Bedrock Edition %4$2s (protocol verze %5$2s)
 nukkit.server.license=%1$2s je distribuován pod GPL Licencí
-nukkit.server.tickOverload=Can't keep up! Is the server overloaded?
+nukkit.server.tickOverload=Nemůžu udržet krok! Je snad server přetížen?
 nukkit.server.startFinished=Hotovo (%1$2ss)! Pokud si nevíš rady napiš "help" nebo "?"
 nukkit.server.defaultGameMode=Výchozí typ hry: %1$2s
 nukkit.server.query.start=Startuji GS4 status listener
@@ -40,9 +40,9 @@ nukkit.server.rcon.running=RCON běží na %1$2s:%2$2s
 
 nukkit.command.alias.illegal=Nelze zaregistrovat alias %1$2s, protože obsahuje ilegální znaky
 nukkit.command.alias.notFound=Nelze zaregistrovat alias %1$2s, protože obsahuje příkaz který neexistuje: %2$2s
-nukkit.command.exception=Unhandled exception executing command '%1$2s' in %2$2s: %3$2s
+nukkit.command.exception=Nezpracovaná výjimka při provádění příkazu '%1$2s' v %2$2s: %3$2s
 
-nukkit.command.version.description=Gets the version of this server including any plugins in use
+nukkit.command.version.description=Vrací verzi server včetně aktivních pluginů
 nukkit.command.version.usage=/version [název pluginu]
 nukkit.command.version.server=Tento server běží na %1$2s ve verzi %2$2s(MC:%3$2s) (API verze %4$2s)
 nukkit.command.version.plugin=%1$2s běží ve verzi %1$2s
@@ -52,10 +52,10 @@ nukkit.command.plugins.description=Získej výpis pluginů, které běží na to
 nukkit.command.plugins.success=Plugins (%1$2s): %2$2s
 nukkit.command.plugins.usage=/plugins
 
-nukkit.command.status.description=Reads back the server's performance.
+nukkit.command.status.description=Získá podrobnosti o vytížení serveru.
 nukkit.command.status.usage=/status
 
-nukkit.command.timings.description=Records timings to see performance of the server.
+nukkit.command.timings.description=Zaznamená časování pro přehled o vytížení serveru.
 nukkit.command.timings.usage=/timings <reset|report/paste|on|off|verbon|verboff>
 nukkit.command.timings.enable=Enabled timings and reset
 nukkit.command.timings.disable=Disabled timings
