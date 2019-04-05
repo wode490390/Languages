@@ -97,9 +97,9 @@ nukkit.plugin.spacesDiscouraged=Plugin '%1$2s' používá mezeru ve jménu, což
 nukkit.plugin.loadError=Nelze načíst plugin '%1$2s': %2$2s
 nukkit.plugin.duplicateError=Nelze načíst plugin '%1$2s': plugin existuje
 nukkit.plugin.fileError=Nelze načíst '%1$2s' ve složce '%2$2s': %3$2s
-nukkit.plugin.commandError=Could not load command %1$2s for plugin %2$2s
-nukkit.plugin.aliasError=Could not load alias %1$2s for plugin %2$2s
-nukkit.plugin.deprecatedEvent=Plugin '%1$2s' has registered a listener for '%2$2s' on method '%3$2s', but the event is Deprecated.
+nukkit.plugin.commandError=Nepodařilo se načíst příkaz %1$2s pro plugin %2$2s
+nukkit.plugin.aliasError=Nepodařilo se načíst alias %1$2s pro plugin %2$2s
+nukkit.plugin.deprecatedEvent=Plugin '%1$2s' zaregistroval listener pro %2$2s na metodu %3$2s, ale event je zastaralý.
 nukkit.plugin.eventError=Could not pass event '%1$2s' to '%2$2s': %3$2s on %4$2s
 
 nukkit.resources.invalid-path=Resource packs path '%1$2s' exists and is not a directory
