@@ -99,7 +99,7 @@ nukkit.plugin.duplicateError=プラグイン「%1$2s」を読み込むことが�
 nukkit.plugin.fileError=フォルダー「%2$2s」で「%1$2s」を読み込むことができませんでした：%3$2s
 nukkit.plugin.commandError=プラグイン %2$2s のコマンド %1$2s を読み込むことができませんでした
 nukkit.plugin.aliasError=プラグイン %2$2s のエイリアス %1$2s を読み込むことができませんでした
-nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」に登録しましたが、このイベントは廃止されました。
+nukkit.plugin.deprecatedEvent=プラグイン「%1$2s」が「%2$2s」に対するリスナーをメソッド「%3$2s」で登録しましたが、このイベントは廃止されました。
 nukkit.plugin.eventError=イベント「%1$2s」を「%2$2s」に渡すことができませんでした：%4$2s での %3$2s
 
 nukkit.resources.invalid-path=リソースパックのパス「%1$2s」が存在し、ディレクトリではありません
