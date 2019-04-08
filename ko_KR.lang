@@ -67,7 +67,7 @@ nukkit.command.timings.rcon=경고: RCON을 통해 수행된 타이밍 보고서
 nukkit.command.timings.uploadStart=타이밍 보고서 준비 중...
 nukkit.command.timings.uploadError=업로드 오류: %1$2s: %2$2s, 자세한 정보는 로그를 확인하세요
 nukkit.command.timings.reportError=보고서를 붙여넣는 동안 오류가 발생했습니다, 자세한 정보는 로그를 확인하세요
-nukkit.command.timings.timingsLocation=타이밍 보고서 보기: %1$2s
+nukkit.command.timings.timingsLocation=타이밍 보고서 확인: %1$2s
 nukkit.command.timings.timingsResponse=타이밍 응답: %1$2s
 nukkit.command.timings.timingsWrite=타이밍이 %1$2s에 작성되었습니다
 
