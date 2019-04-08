@@ -67,7 +67,7 @@ nukkit.command.timings.rcon=警告：RCON を介して実行されたタイミ�
 nukkit.command.timings.uploadStart=タイミングレポートを準備しています…
 nukkit.command.timings.uploadError=アップロードエラー：%1$2s：%2$2s、詳細はログを確認してください
 nukkit.command.timings.reportError=レポートのペースト中にエラーが発生しました、詳細はログを確認してください
-nukkit.command.timings.timingsLocation=タイミングのレポートを見る：%1$2s
+nukkit.command.timings.timingsLocation=タイミングのレポートの確認：%1$2s
 nukkit.command.timings.timingsResponse=タイミングの応答：%1$2s
 nukkit.command.timings.timingsWrite=タイミングが %1$2s に書き込まれました
 
