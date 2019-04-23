@@ -7,7 +7,7 @@
 nukkit.language.selected=%1$2s をデフォルトのロケールとして選択しました。
 
 nukkit.data.playerNotFound=「%1$2s」のプレイヤーデータが見つからないため、新しいプロフィールを作成します
-nukkit.data.playerCorrupted=「%1$2s」の破損しているデータが見つかったため、新しいプロフィールを作成します
+nukkit.data.playerCorrupted=「%1$2s」の破損したデータが見つかったため、新しいプロフィールを作成します
 nukkit.data.playerOld=「%1$2s」の古いプレイヤーデータが見つかったため、プロフィールをアップグレードします
 nukkit.data.saveError=プレイヤー「%1$2s」のデータを保存できませんでした：%2$2s
 
