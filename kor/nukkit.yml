@@ -25,6 +25,7 @@ network:
  compression-level: 7
  #압축에 AsyncTasks를 사용합니다. 0.5틱/1틱 지연을 추가하고, 메인 스레드에 더 적은 CPU를 사용합니다
  async-compression: false
+ zlib-provider: 2
 
 debug:
  #1보다 크면, 콘솔에 디버그 메시지를 표시합니다
@@ -102,14 +103,14 @@ spawn-limits:
  animals: 15
  water-animals: 5
  ambient: 15
- 
+
 player:
  #true로 설정하면, 플레이어 데이터가 players/플레이어 이름.dat으로 저장됩니다
  #false로 설정하면, Nukkit이 플레이어 데이터를 "dat" 파일로 저장하지 않으므로 플러그인에서 무언가를 수행할 수 있습니다.
  save-player-data: true
  #The time between skin change action in seconds, set to 0 if you dont want the cooldown
  skin-change-cooldown: 30
- 
+
 aliases:
  #명령어의 별칭
  #예:
