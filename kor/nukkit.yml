@@ -16,6 +16,7 @@ settings:
  #AsyncTask Works의 개수
  #auto로 설정하면, 자동으로 코어의 개수를 감지하려고 시도합니다(최소 4개)
  async-workers: auto
+ bug-report: true
 
 network:
  #일괄 처리 패킷에 대한 임곗값(바이트)입니다. 이 패킷들만 압축됩니다

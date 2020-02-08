@@ -16,6 +16,7 @@ settings:
  #AsyncTask workerių skaičius
  #Jeigu nustatytas ant auto, jis automatiškai bandys aptikti branduolių skaičių (ir bent 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Didžiausas leistinas paketų rūšiavimas bitais. Tik šie paketai bus suspausti

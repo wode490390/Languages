@@ -17,6 +17,7 @@ settings:
  #Počet pracovníků AsyncTasku
  #Pokud je nastaven na automatické, pokusí se detekovat počet jader (a nejméně 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Threshold pro dávkové pakety v bajtech. Pouze tyto pakety budou komprimovány

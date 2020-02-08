@@ -16,6 +16,7 @@ settings:
  #Número de trabalhadores da AsyncTask
  #Se marcado como auto, ele irá tentar detectar o número de núcleos (e no mínimo 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Limite de lotes de packets, em bytes. Somente estes packets serão compactados

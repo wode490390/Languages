@@ -16,6 +16,7 @@ settings:
  #Anzahl an AsyncTasks
  #Wenn es auf auto gestellt ist, wird Nukkit versuchen die Anzahl der Cores zu ermitteln (und setzt mindestens 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Grenze der gesendeten Dateien/Pakete zur gleiden Zeit, in Bytes. Nur diese Pakete werden komprimiert

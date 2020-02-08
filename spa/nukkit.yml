@@ -16,6 +16,7 @@ settings:
  #Número de trabajadores AsyncTask 
  #Si se establece en auto = automático, tratará de detectar el número de núcleos ( al menos 4 )
  async-workers: auto
+ bug-report: true
 
 network:
  #Umbral para los paquetes a enviar , en bytes . Sólo estos paquetes se comprimirán

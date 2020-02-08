@@ -16,6 +16,7 @@ settings:
  #Liczba AsyncTask worker'ow
  #Jesli jest ustawione na auto, bedzie probowac wykryc ilosc rdzeni (i przynajmniej 4)
  async-workers: auto
+ bug-report: true
 
 network:
  #Threshold for batching packets, in bytes. Only these packets will be compressed
